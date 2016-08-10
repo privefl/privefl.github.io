@@ -3,7 +3,7 @@ title: "Address and CV"
 output: html_document
 ---
 
-## Adresss
+## Address
 
 <address>
 PhD student under the supervision of [Michael Blum](http://membres-timc.imag.fr/Michael.Blum/) (TIMC-IMAG) and Hugues Aschard (Institut Pasteur).
