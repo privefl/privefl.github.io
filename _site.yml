@@ -9,3 +9,15 @@ navbar:
       href: about.html
     - text: "CV"
       href: cv.html
+  right:
+    - text: "Contact me"
+      href: mailto:florian.prive.21@gmail.com
+    - text: "GitHub"
+      href: https://github.com/privefl
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
