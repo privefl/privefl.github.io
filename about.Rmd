@@ -1,5 +1,36 @@
 ---
-title: "About This Website"
+title: "About Me"
+output: html_document
 ---
 
-More about this website.
+## Hometown 
+
+I'm from [Troyes](https://en.wikipedia.org/wiki/Troyes), France. 
+I naturally like Champagne.
+
+## Education
+
+I was in prep school in [Dijon](https://en.wikipedia.org/wiki/Dijon).
+
+Then, I graduated from [ENSIMAG](https://goo.gl/2aDwm1), an engineer school in __Informatics__ and __Applied Mathematics__ in [Grenoble](https://en.wikipedia.org/wiki/Grenoble). 
+
+I did both my internships in Research, 
+
+- the former on goodness-of-fit tests for the Weibull distribution with censored data (through Monte Carlo simulations),
+- the latter in predictive human genetics, studying a massive dataset on [Celiac disease](https://en.wikipedia.org/wiki/Coeliac_disease).
+
+## Interests 
+
+I'm found of __Data Science__ and a __R(cpp)__ enthusiast.
+
+## Current work
+
+I am doing a PhD in predictive human genetics.
+I am currently working on making an R package for fast and memory-efficient
+analysis on massive SNP arrays thanks to [package bigmemory](https://github.com/kaneplusplus/bigmemory).
+
+I am also trying to contribute to R 
+
+- by contributing to other packages when I can ([badgecreatr](https://github.com/RMHogervorst/badgecreatr)),
+- by asking and answering questions on [Stack Overflow](http://stackoverflow.com/users/6103040/f-privé),
+- by posting on [R-bloggers](https://www.r-bloggers.com/).

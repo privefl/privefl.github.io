@@ -1,6 +1,7 @@
 ---
-title: "Florian Privé"
+title: "Welcome to my website!"
 ---
-<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
 
-Hello, Website!
+Hi there, I'm Florian Privé!
+
+I'm a PhD student in predictive human genetics and an R(cpp) enthusiast. [Read more about my life...](about.html)
