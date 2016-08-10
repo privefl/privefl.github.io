@@ -1,0 +1,31 @@
+---
+title: "Address and CV"
+output: html_document
+---
+
+## Adresss
+
+<address>
+PhD student under the supervision of [Michael Blum](http://membres-timc.imag.fr/Michael.Blum/) (TIMC-IMAG) and Hugues Aschard (Institut Pasteur).
+
+BCM team, Laboratoire TIMC-IMAG, Grenoble, France.
+
+<SCRIPT LANGUAGE="JavaScript">
+user = 'florian.prive.21';
+site = 'gmail.com';
+document.write('<a href=\"mailto:' + user + '@' + site + '\">');
+document.write(user + '@' + site + '</a>');
+</SCRIPT> 
+</address>
+
+## CV 
+
+<a href="CV.pdf#" class="download" title="Download CV as PDF">Download CV (French)</a>			
+
+### Publications
+
+None yet :-(
+
+### Conferences
+
+Speaker at [ALT'2016](http://alt2016.sciencesconf.org/): [Goodness-of-fit tests for the Weibull distribution with censored data](http://alt2016.sciencesconf.org/95128).

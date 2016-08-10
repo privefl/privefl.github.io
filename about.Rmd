@@ -25,7 +25,7 @@ I'm found of __Data Science__ and a __R(cpp)__ enthusiast.
 
 ## Current work
 
-I am doing a PhD in predictive human genetics.
+I am a PhD student in predictive human genetics in the [BCM team](http://www-timc.imag.fr/rubrique44.html) of Laboratoire TIMC-IMAG.
 I am currently working on making an R package for fast and memory-efficient
 analysis on massive SNP arrays thanks to [package bigmemory](https://github.com/kaneplusplus/bigmemory).
 
