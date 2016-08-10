@@ -3,6 +3,19 @@ title: "About me"
 output: html_document
 ---
 
+<address>
+PhD student under the supervision of [Michael Blum](http://membres-timc.imag.fr/Michael.Blum/) (TIMC-IMAG) and Hugues Aschard (Institut Pasteur).
+
+[BCM team](http://www-timc.imag.fr/rubrique44.html), Laboratoire TIMC-IMAG, Grenoble, France.
+
+<SCRIPT LANGUAGE="JavaScript">
+user = 'florian.prive.21';
+site = 'gmail.com';
+document.write('<a href=\"mailto:' + user + '@' + site + '\">');
+document.write(user + '@' + site + '</a>');
+</SCRIPT> 
+</address>
+
 ## Hometown 
 
 I'm from [Troyes](https://en.wikipedia.org/wiki/Troyes), France. 
@@ -25,7 +38,7 @@ I'm found of __Data Science__ and a __R(cpp)__ enthusiast.
 
 ## Current work
 
-I am a PhD student in predictive human genetics in the [BCM team](http://www-timc.imag.fr/rubrique44.html) of Laboratoire TIMC-IMAG.
+I am a PhD student in predictive human genetics.
 I am currently working on making an R package for fast and memory-efficient
 analysis on massive SNP arrays thanks to [package bigmemory](https://github.com/kaneplusplus/bigmemory).
 
