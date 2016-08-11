@@ -13,6 +13,11 @@ navbar:
     - text: "CV"
       icon: fa-file-text-o
       href: cv.html
+    - text: "Blog"
+      icon: fa-rss
+      menu:
+        - text: "R package primefactr"
+          href: _posts/package-primefactr.html
   right:
     - text: "Contact me"
       icon: fa-envelope-o
