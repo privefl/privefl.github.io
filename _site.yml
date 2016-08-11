@@ -13,7 +13,6 @@ navbar:
     - text: "CV"
       icon: fa-file-pdf-o
       href: cv.html
-  middle:
     - text: "Blog"
       icon: fa-rss
       href: https://privefl.github.io/blog/
