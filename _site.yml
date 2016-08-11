@@ -30,6 +30,6 @@ output:
     theme: cosmo
     highlight: textmate
     include:
-      in_header: head.html
+      before_body: head.html
       in_footer: footer.html
     css: styles.css
