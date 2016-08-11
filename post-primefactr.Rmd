@@ -2,8 +2,10 @@
 title: "R package primefactr"
 author: "Florian Privé"
 date: "August 10, 2016"
-encoding: "UTF8"
-output: html_document
+tags: R
+output: 
+  html_document:
+    toc: true
 ---
 
 ***
