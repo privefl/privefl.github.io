@@ -2,22 +2,28 @@ name: "Florian Privé"
 output_dir: "."
 navbar:
   title: "Florian Privé"
+  type: inverse
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
     - text: "About"
+      icon: fa-user 
       href: about.html
     - text: "CV"
+      icon: fa-file-text-o
       href: cv.html
   right:
     - text: "Contact me"
+      icon: fa-envelope-o
       href: mailto:florian.prive.21@gmail.com
     - text: "GitHub"
+      icon: fa-github
       href: https://github.com/privefl
 output:
   html_document:
     theme: cosmo
     highlight: textmate
     include:
-      after_body: footer.html
+      in_footer: "Blabla"
     css: styles.css
