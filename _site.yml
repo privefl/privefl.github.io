@@ -11,7 +11,7 @@ navbar:
       icon: fa-user 
       href: about.html
     - text: "CV"
-      icon: fa-file-text-o
+      icon: fa-file-pdf-o
       href: cv.html
     - text: "Blog"
       icon: fa-rss
@@ -25,11 +25,9 @@ navbar:
     - text: "GitHub"
       icon: fa-github
       href: https://github.com/privefl
+    - icon: fa-stack-overflow
+      href: http://stackoverflow.com/users/6103040/f-priv%c3%a9
 output:
   html_document:
     theme: cosmo
     highlight: textmate
-    include:
-      before_body: head.html
-      in_footer: footer.html
-    css: styles.css
