@@ -9,9 +9,11 @@
 <meta name="generator" content="pandoc" />
 
 
+<meta name="author" content="Florian PrivÃ©" />
 
+<meta name="date" content="2016-08-10" />
 
-<title>CV</title>
+<title>R package primefactr</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -238,19 +240,74 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">CV</h1>
+<h1 class="title toc-ignore">R package primefactr</h1>
+<h4 class="author"><em>Florian PrivÃ©</em></h4>
+<h4 class="date"><em>August 10, 2016</em></h4>
 
 </div>
 
 
-<p><a href="CV.pdf#" class="download" title="Download CV as PDF">Download CV (French)</a></p>
-<div id="publications" class="section level3">
-<h3>Publications</h3>
-<p>None yet :-(</p>
+<hr />
+<p>In this post, I will present my first R package. It makes use of <a href="https://en.wikipedia.org/wiki/Prime_factor">Prime Factorization</a> for computations.</p>
+<p>This small R package was initially developed to compute <a href="https://en.wikipedia.org/wiki/Hypergeometric_distribution">hypergeometric probabilities</a> which are used in Fisher’s exact test, for instance. It was also a way to get introduced with CRAN submission :’).</p>
+<div id="installation-and-attachment" class="section level2">
+<h2>Installation and Attachment</h2>
+<pre class="r"><code>## Installation
+install.packages(&quot;primefactr&quot;)</code></pre>
+<pre class="r"><code>## Attachment
+library(&quot;primefactr&quot;)</code></pre>
 </div>
-<div id="conferences" class="section level3">
-<h3>Conferences</h3>
-<p>Speaker at <a href="http://alt2016.sciencesconf.org/">ALT’2016</a>: <a href="http://alt2016.sciencesconf.org/95128">Goodness-of-fit tests for the Weibull distribution with censored data</a>.</p>
+<div id="features" class="section level2">
+<h2>Features</h2>
+<div id="main-feature" class="section level3">
+<h3>Main feature</h3>
+<p>For instance, to compute <span class="math display">\[P(X = k) = \dfrac{\binom{K}{k}~\binom{N-K}{n-k}}{\binom{N}{n}} = \dfrac{K!~(N-K)!~n!~(N-n)!}{k!~(K-k)!~(n-k)!~(N-K-n+k)!~N!},\]</span> you can use</p>
+<pre class="r"><code>f &lt;- function(k, N, K, n) {
+  ComputeDivFact(c(K, (N-K), n, (N-n)),
+                 c(k, (K-k), (n-k), (N-K-n+k), N))
+}
+f(4, 50, 5, 10)</code></pre>
+<pre><code>## [1] 0.003964583</code></pre>
+<pre class="r"><code>f(5, 50, 5, 10)</code></pre>
+<pre><code>## [1] 0.0001189375</code></pre>
+<p>You can check the results <a href="https://en.wikipedia.org/wiki/Hypergeometric_distribution#Application_and_example">here</a>.</p>
+<p>Let us now check large numbers:</p>
+<pre class="r"><code>f(k = 1000, N = 15100, K = 5000, n = 3100)</code></pre>
+<pre><code>## [1] 0.009003809</code></pre>
+<p>A direct approach would require computing <code>factorial(15100)</code>, while <code>factorial(100) = 9.332622e+157</code>.</p>
+</div>
+<div id="implementation" class="section level3">
+<h3>Implementation</h3>
+<p>This uses a Prime Factorization to simplify computations.</p>
+<p>I code a number as follows, <span class="math display">\[number = \prod i^{code[i]},\]</span> or, which is equivalent, <span class="math display">\[\log(number) = \sum code[i] \times \log(i).\]</span> For example,</p>
+<ul>
+<li><span class="math inline">\(5\)</span> is coded as (0, 0, 0, 0, 1),</li>
+<li><span class="math inline">\(5!\)</span> is coded as (1, 1, 1, 1, 1),</li>
+<li><span class="math inline">\(8!\)</span> is coded as (1, 1, 1, 1, 1, 1, 1, 1).</li>
+</ul>
+<p>So, to compute <span class="math inline">\(8! / 5!\)</span>, you just have to substract the code of <span class="math inline">\(5!\)</span> from the code of <span class="math inline">\(8!\)</span> which gives you (0, 0, 0, 0, 0, 1, 1, 1).</p>
+<p>Then there is the step of Prime Factorization:</p>
+<p>Factorization by 2:</p>
+<ul>
+<li>it becomes (0, 2, 1, 1, 0, 0, 1, 0) because <span class="math inline">\(8 = 4 \times 2\)</span> and <span class="math inline">\(6 = 3 \times 2\)</span>,</li>
+<li>then it becomes (0, 4, 1, 0, 0, 0, 1, 0) because <span class="math inline">\(4 = 2^2\)</span>.</li>
+</ul>
+<p>This is already finished (this is a small example). You get that <span class="math inline">\(8! / 5! = 2^4 \times 3^1 \times 7^1\)</span>. Let us verify:</p>
+<pre class="r"><code>cat(sprintf(&quot;%s == %s&quot;, factorial(8) / factorial(5), 2^4 * 3 * 7))</code></pre>
+<pre><code>## 336 == 336</code></pre>
+</div>
+<div id="play-with-primes" class="section level3">
+<h3>Play with primes</h3>
+<p>You can also test if a number is a prime and get all prime numbers up to a certain number.</p>
+</div>
+</div>
+<div id="submission-to-cran" class="section level2">
+<h2>Submission to CRAN</h2>
+<p>It was easier than I thought. I’ve just followed the instructions of the book <a href="http://r-pkgs.had.co.nz/">R packages</a> by Hadley Wickham. I had two notes:</p>
+<ol style="list-style-type: decimal">
+<li>It is my first submission.</li>
+<li>File README.md cannot be checked without â€˜pandocâ€™ being installed. For this note, I used the same comment as <a href="https://github.com/klarsen1/Information/blob/master/cran-comments.md">here</a> and CRAN didn’t complain.</li>
+</ol>
 </div>
 
 
