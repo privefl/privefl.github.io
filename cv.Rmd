@@ -2,13 +2,11 @@
 title: "CV"
 ---
 
-
 <a href="CV.pdf#" class="download" title="Download CV as PDF">Download CV (French)</a>			
-
-### Publications
+## Publications
 
 None yet :-(
 
-### Conferences
+## Conferences
 
 1. Speaker at [ALT'2016](http://alt2016.sciencesconf.org/): [Goodness-of-fit tests for the Weibull distribution with censored data](http://alt2016.sciencesconf.org/95128).
