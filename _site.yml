@@ -10,7 +10,6 @@ navbar:
     - text: "About"
       icon: fa-user 
       href: about.html
-      permalink: /about/
     - text: "CV"
       icon: fa-file-pdf-o
       href: cv.html
@@ -30,3 +29,4 @@ output:
   html_document:
     theme: cosmo
     highlight: textmate
+permalink: /:title/
