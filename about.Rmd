@@ -43,7 +43,7 @@ analysis on massive SNP arrays thanks to [package bigmemory](https://github.com/
 
 I am also trying to contribute to R 
 
-- by submitting my own packages to CRAN (or just GitHub),
-- by contributing to other projects when I can,
-- by asking and answering questions on Stack Overflow,
+- by submitting my own packages to CRAN (or just [GitHub](https://github.com/privefl?tab=repositories)),
+- by [contributing to other projects when I can](https://github.com/pulls?utf8=%E2%9C%93&q=author%3Aprivefl+),
+- by asking and answering questions on [Stack Overflow](http://stackoverflow.com/users/6103040/f-privé),
 - by posting on [R-bloggers](https://www.r-bloggers.com/).
