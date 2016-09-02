@@ -23,6 +23,8 @@ navbar:
     - text: "GitHub"
       icon: fa-github
       href: https://github.com/privefl/privefl.github.io
+    - icon: fa-twitter
+      href: https://twitter.com/privefl
     - icon: fa-stack-overflow
       href: http://stackoverflow.com/users/6103040/f-privé
 output:
