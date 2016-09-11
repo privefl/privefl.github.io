@@ -1,0 +1,347 @@
+---
+title: "Getting My Colleagues Hooked on R"
+author: "Florian Privé"
+date: "`r Sys.Date()`"
+output:
+  ioslides_presentation:
+    css: pResentation-styles.css
+    self_contained: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  cache = TRUE,
+  warning = FALSE, message = FALSE, 
+  fig.align = 'center', comment = "")
+```
+
+```{r, include=FALSE}
+pacman::p_load(googlesheets, gsubfn, stringr)
+printf <- function(...) cat(sprintf(...))
+
+sheet <- gs_key("113h74NVW_VZWuF9EttiYTNVONS-SXEvi7MwGizZD2LE")
+
+sheet.content <- gs_read(sheet)
+
+responses <- sheet.content[, 2]
+n <- nrow(responses)
+```
+
+
+## What `r n` of you wanted to learn
+
+```{r, echo=FALSE, results='asis'}
+url <- "https://docs.google.com/forms/d/13Hrr9x-3ASaPKPJGRpKzsGWlkwu59LGITtw1ldG7FAU/edit#responses"
+url <- url(url)
+url.lines <- readLines(url, encoding = "UTF-8", warn = FALSE)
+pattern <-  "\\[\"([^\"]*)\",,,,0\\]"
+questions <- unlist(gsubfn::strapply(url.lines, pattern))
+
+counts <- str_count(responses, coll(questions))
+
+counts.lvl <- setdiff(sort(unique(counts), decreasing = TRUE), 0)
+
+for (n in counts.lvl) {
+  if (n == 2) printf("\n***\n")
+  printf("- for **%d** of you:\n", n)
+  q.tmp <- questions[counts == n]
+  for (q in q.tmp) {
+    printf("    - %s\n", q)
+  }
+}
+```
+
+<!-- ## What is R?  -->
+
+<!-- <iframe width="640" height="360" src="https://www.youtube.com/embed/TR2bHSJ_eck" frameborder="0" allowfullscreen></iframe> -->
+
+
+## Some facts about the growth of R:
+
+- R is #5 of all programming languages ([IEEE Spectrum, July 2016](https://www.r-bloggers.com/r-moves-up-to-5th-place-in-ieee-language-rankings/))
+
+```{r, echo=FALSE}
+knitr::include_graphics("http://revolution-computing.typepad.com/.a/6a010534b1db25970b01bb092485d1970d-800wi")
+```
+
+<!-- The other four languages in the top 5 (C, Java, Python amd C++) are all general-purpose languages, suitable for just about any programming task. R by contrast is a language specifically for data science, and its high ranking here reflects both the critical importance of data science as a discipline today, and of R as the language of choice for data scientists. -->
+
+---
+
+```{r, echo = FALSE}
+thepage <- readLines('https://cran.r-project.org/web/packages/')
+theline <- grep("Currently, the CRAN package repository features [0-9]+ available packages.", thepage)
+thesplit <- strsplit(thepage[theline], split = " ")[[1]]
+thepos <- match("available", thesplit) - 1
+n <- thesplit[thepos]
+```
+
+- There are now  `r n` available packages on CRAN ([CRAN: Contributed Packages, `r Sys.Date()`](https://cran.r-project.org/web/packages/))
+
+```{r, echo=FALSE, out.height=500}
+knitr::include_graphics("http://a3.typepad.com/6a017d41eeee1a970c01bb08ef2103970d-pi")
+```
+
+---
+
+- There are many R conferences:
+    - useR!: 900+ people in 2016,
+    - eRum: european R users meeting,
+    - EARL: many people from the Industry,
+    - Rencontres R: Grenoble in 2015,
+    - satRdays,
+    - R/Finance & R in Insurance.
+    
+- The R blogosphere is huge: [R-bloggers](https://www.r-bloggers.com/) has
+    - nearly 600 bloggers,
+    - 36K followers on Twitter,
+    - 39K on Facebook,
+    - very interesting posts every day!
+
+## Manipulating data? Ask Hadley Wickham!
+
+R packages that he has developped (from [his website](http://hadley.nz/)):
+
+- Data science
+    - <a href="http://ggplot2.org">ggplot2</a> for visualising data.
+    - <a href="http://github.com/hadley/dplyr">dplyr</a> for manipulating data.
+    - <a href="http://github.com/hadley/tidyr">tidyr</a> for tidying data.
+    - <a href="http://github.com/hadley/stringr">stringr</a> for working with strings.
+    - <a href="http://github.com/hadley/lubridate">lubridate</a> for working with date/times.
+    
+---
+
+- Data import
+    - <a href="http://github.com/hadley/readr">readr</a> for reading .csv and fwf files.
+    - <a href="http://github.com/hadley/readxl">readxl</a> for reading .xls and .xlsx files.
+    - <a href="http://github.com/hadley/haven">haven</a> for SAS, SPSS, and Stata files.
+    - <a href="http://github.com/hadley/httr">httr</a> for talking to web APIs.
+    - <a href="http://github.com/hadley/rvest">rvest</a> for scraping websites.
+    - <a href="http://github.com/hadley/xml2">xml2</a> for importing XML files.
+    
+- Software engineering
+    - <a href="http://github.com/hadley/devtools">devtools</a> for general package development.
+    - <a href="http://github.com/klutometis/roxygen">roxygen2</a> for in-line documentation.
+    - <a href="http://github.com/hadley/testthat">testthat</a> for unit testing.
+
+## Introduction to dplyr (from its vignette)
+
+```{r, collapse=TRUE}
+library(nycflights13)
+dim(flights)
+head(flights)
+```
+
+
+***
+
+```{r}
+require(dplyr)
+```
+
+
+Dplyr aims to provide a function for each basic verb of data manipulation:
+
+- ``filter()`` (and ``slice()``)
+- ``arrange()``
+- ``select()`` (and ``rename()``)
+- ``distinct()``
+- ``mutate()`` (and ``transmute()``)
+- ``summarise()``
+- ``sample_n()`` (and ``sample_frac()``)
+
+*** 
+
+```{r}
+filter(flights, month == 1, day == 1)
+```
+
+***
+
+```{r}
+arrange(flights, desc(dep_delay))
+```
+
+***
+
+```{r}
+mutate(flights, gain = arr_delay - dep_delay,
+  speed = distance / air_time * 60)
+```
+
+***
+
+```{r}
+flights2 <- flights %>%
+  filter(month == 1, day == 1) %>%
+  arrange(desc(dep_delay)) %>%
+  mutate(gain = arr_delay - dep_delay,
+         speed = distance / air_time * 60)
+head(flights2)
+```
+
+
+
+
+## Elegant visualization tools: [ggplot2](http://ggplot2.org/)
+
+```{r, out.height=380, out.width=600}
+require(ggplot2)
+p <- qplot(dep_delay, arr_delay, data = flights2, 
+      main = "Flights which take off late arrive late. Surprising!")
+print(p)
+```
+
+## Adding layers
+
+```{r}
+p + geom_smooth()
+```
+
+## More: go check this book
+
+```{r}
+citation("ggplot2")
+```
+
+
+## Some extensions are available [here](https://www.ggplot2-exts.org/)
+
+```{r}
+ggExtra::ggMarginal(p, type = "histogram")
+```
+
+
+## [ggmap](https://github.com/dkahle/ggmap): maps with ggplot2
+
+```{r, echo=FALSE}
+knitr::include_graphics("http://revolution-computing.typepad.com/.a/6a010534b1db25970b0167689d5031970b-800wi")
+```
+
+## Interactive visualizations tools: [plotly](https://plot.ly/ggplot2/)
+
+```{r}
+plotly::ggplotly(p)
+```
+<!-- <center> -->
+<!-- ```{r, message=FALSE, out.height=380, out.width=580, echo=FALSE} -->
+<!-- library(plotly) -->
+<!-- ggplotly(p) -->
+<!-- ``` -->
+<!-- </center> -->
+
+## Interactive apps: [Shiny](http://shiny.rstudio.com/)
+
+Live demo!
+
+- From the Shiny website
+- My own shiny app: `shiny::runGitHub("privefl/repartitions_equipes")`
+- A game: [Lights Out](https://daattali.com/shiny/lightsout/)
+
+[Advanced tips and tricks](https://github.com/daattali/advanced-shiny)
+
+## Use of C++ code when needed
+
+
+
+## Bigmemory
+
+- On-disk matrices
+- types: ``char``, ``short``, ``int``, ``float``, ``double``
+- Access with `[i, j]` as a matrix 
+- Access via C++ code with `[j][i]`
+- Easy use of parallelisation with shared matrices
+
+## Example with foreach and bigmemory
+
+> - Say you have:
+    - A SNP big.matrix X stored on-disk in directory _backingfiles_,
+    - Infos on the positions of the SNPs (the first 40,000 SNPs are in chromosome 1, then 38,000 are in chromosome 2, etc.),
+
+> - And you have to do some computations which are independent with respect to chromosomes. You want to use __Parallel Computing__!
+
+> - How to do use Parallel Computing on massive genotype matrices?
+
+***
+
+```{r, eval = FALSE, out.height=300}
+DO_all <- function(X, infos, ncores) {
+  DO_chr <- function(X.desc, lims) {
+    X.chr <- sub.big.matrix(X.desc, 
+                          firstCol = lims[1], 
+                          lastCol = lims[2],
+                          backingpath = "backingfiles")
+    ## Do something with X.chr (such as imputing)
+  }
+  range.chr <- LimsChr(infos)
+  X.desc <- describe(X)
+  obj <- foreach(chr = 1:nrow(range.chr), 
+                 .packages = "bigmemory")
+  expr_fun <- function(chr) {
+    DO_chr(X.desc, range.chr[chr, ])
+  }
+  res <- foreach2(obj, expr_fun, ncores)
+}
+```
+
+***
+
+```{r, eval = FALSE}
+LimsChr <- function(infos) {
+  map.rle <- rle(infos$map$chromosome)
+  upper <- cumsum(map.rle$length)
+  lower <- c(1, upper[-length(upper)] + 1)
+  cbind(lower, upper, "chr" = map.rle$values)
+}
+
+foreach2 <- function(obj, expr_fun, ncores) {
+  if (is.seq <- (ncores == 1)) {
+    foreach::registerDoSEQ()
+  } else {
+    cl <- parallel::makeCluster(ncores)
+    doParallel::registerDoParallel(cl)
+  }
+  res <- eval(parse(
+    text = sprintf("foreach::`%%dopar%%`(obj, expr_fun(%s))",
+                   obj$argnames)))
+  if (!is.seq) parallel::stopCluster(cl)
+  return(res)
+}
+```
+
+## We have [RStudio](https://www.rstudio.com/)
+
+Live demo!
+
+- Code highlighting/autocompletion
+- Help > Cheatsheets
+- Panels (Git, ...)
+- debugger
+- [Notebooks](http://rmarkdown.rstudio.com/r_notebooks.html)
+
+More tips: [RStudio Tips](https://twitter.com/rstudiotips) on Twitter
+
+## Free books to learn about R:
+
+- Advanced R programming: 
+    - [Efficient R Programming](https://csgillespie.github.io/efficientR/preface.html)
+    - [Advanced R](http://adv-r.had.co.nz/)
+- Reporting:
+    - [Getting used to R, RStudio, and R Markdown](https://ismayc.github.io/rbasics-book/index.html)
+- Data analysis:
+    - [R for Data Science](http://r4ds.had.co.nz/)
+    - [An Introduction to Statistical Learning, with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/) (Trevor Hastie)
+- Package development:
+    - [R packages](http://r-pkgs.had.co.nz/)
+
+Learn: [R Course Finder](http://r-exercises.com/r-courses/)
+
+
+## References and further reading
+
+- [7 Tips For Getting Your Colleagues Hooked on R](http://scl.io/QZxZZl6u#gs.zMhz76Q)
+- [Video: What is R?](https://www.youtube.com/embed/TR2bHSJ_eck)
+- [How Companies Use R to Compete in a Data-Driven World](http://data-informed.com/companies-use-r-compete-data-driven-world/)
+- [How the growth of R helps data-driven organizations succeed](http://www.slideshare.net/RevolutionAnalytics/how-the-growth-of-r-helps-datadriven-organizations-succeed)
+- [A segmented model of CRAN package growth](https://www.r-bloggers.com/a-segmented-model-of-cran-package-growth/)
+- [Coke vs Soda vs Pop : Linguistic trends analyzed with Twitter and R](https://www.r-bloggers.com/coke-vs-soda-vs-pop-linguistic-trends-analyzed-with-twitter-and-r/)

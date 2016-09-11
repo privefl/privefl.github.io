@@ -16,6 +16,10 @@ navbar:
     - text: "Blog"
       icon: fa-rss
       href: https://privefl.github.io/blog/
+    - text: "More"
+      menu:
+        - text: "R Presentation"
+          href: pResentation.html
   right:
     - text: "Contact me"
       icon: fa-envelope-o
