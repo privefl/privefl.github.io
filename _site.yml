@@ -15,7 +15,7 @@ navbar:
       href: cv.html
     - text: "Blog"
       icon: fa-rss
-      href: blog#https://privefl.github.io/blog/
+      href: https://privefl.github.io/blog/
     - text: "Miscellaneous"
       icon: fa-bars
       href: R-presentation/pResentation.html
