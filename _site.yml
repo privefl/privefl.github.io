@@ -18,7 +18,10 @@ navbar:
       href: https://privefl.github.io/blog/
     - text: "Miscellaneous"
       icon: fa-bars
-      href: R-presentation/pResentation.html#blank
+      menu:
+        - text: R presentation
+          href: R-presentation/pResentation.html
+          target: _blank
   right:
     - text: "Contact me"
       icon: fa-envelope-o
