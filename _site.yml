@@ -15,7 +15,10 @@ navbar:
       href: cv.html
     - text: "Blog"
       icon: fa-rss
-      href: https://privefl.github.io/blog/
+      href: blog#https://privefl.github.io/blog/
+    - text: "Miscellaneous"
+      icon: fa-bars
+      href: R-presentation/pResentation.html
   right:
     - text: "Contact me"
       icon: fa-envelope-o
