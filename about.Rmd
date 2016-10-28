@@ -7,13 +7,13 @@ PhD student under the supervision of [Michael Blum](http://membres-timc.imag.fr/
 
 [BCM team](http://www-timc.imag.fr/rubrique44.html), Laboratoire TIMC-IMAG, Grenoble, France.
 
-<SCRIPT LANGUAGE="JavaScript">
-user = 'florian.prive.21';
-site = 'gmail.com';
-document.write('<a href=\"mailto:' + user + '@' + site + '\">');
-document.write(user + '@' + site + '</a>');
-</SCRIPT> 
-</address>
+<!-- <SCRIPT LANGUAGE="JavaScript"> -->
+<!-- user = 'florian.prive.21'; -->
+<!-- site = 'gmail.com'; -->
+<!-- document.write('<a href=\"mailto:' + user + '@' + site + '\">'); -->
+<!-- document.write(user + '@' + site + '</a>'); -->
+<!-- </SCRIPT>  -->
+<!-- </address> -->
 
 ## Hometown 
 
