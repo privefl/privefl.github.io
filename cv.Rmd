@@ -10,4 +10,4 @@ None yet :-(
 
 ## Conferences
 
-1. Speaker at [ALT'2016](http://alt2016.sciencesconf.org/): [Goodness-of-fit tests for the Weibull distribution with censored data](http://alt2016.sciencesconf.org/95128) <a href="slides_GOFW.pdf#" class="download" title="Download slides">[Slides]</a>.
+1. Speaker at [ALT'2016](http://alt2016.sciencesconf.org/): Goodness-of-fit tests for the Weibull distribution with censored data. <a href="slides_GOFW.pdf#" class="download" title="Download slides">[Slides]</a>
