@@ -4,9 +4,6 @@ navbar:
   title: "Florian Privé"
   type: inverse
   left:
-    - text: "Home"
-      icon: fa-home
-      href: index.html
     - text: "About"
       icon: fa-user 
       href: about.html
