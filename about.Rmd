@@ -6,7 +6,7 @@ I'm fond of __Data Science__ and an __R(cpp)__ enthusiast.
 
 ## Current work
 
-I am a PhD student in predictive human genetics in [BCM team](http://www-timc.imag.fr/rubrique44.html), Laboratoire TIMC-IMAG, Grenoble, France.
+I am a PhD student in predictive human genetics in [BCM team](http://www-timc.imag.fr/rubrique44.html), Laboratoire TIMC-IMAG, Grenoble, France. My supervisors are [Michael Blum](https://twitter.com/mblum_g) (TIMC-IMAG) and Hugues Aschard (Institut Pasteur).
 
 I am currently working on making an R package for fast and memory-efficient
 analysis on massive SNP arrays thanks to [package bigmemory](https://github.com/kaneplusplus/bigmemory).

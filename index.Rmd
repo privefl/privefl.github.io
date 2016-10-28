@@ -2,9 +2,6 @@
 title: "Hi there, I'm Florian Privé!"
 ---
 
-I'm a PhD student in predictive human genetics. 
-My supervisors are [Michael Blum](https://twitter.com/mblum_g) (TIMC-IMAG) and Hugues Aschard (Institut Pasteur).
-
-I'm also an R(cpp) enthusiast. 
+I'm a PhD student in predictive human genetics and an R(cpp) enthusiast. 
 
 [Read more about my life...](about.html)
