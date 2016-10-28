@@ -1,23 +1,19 @@
----
-title: "About me"
----
-
-<address>
-PhD student under the supervision of [Michael Blum](https://twitter.com/mblum_g) (TIMC-IMAG) and Hugues Aschard (Institut Pasteur).
-
-[BCM team](http://www-timc.imag.fr/rubrique44.html), Laboratoire TIMC-IMAG, Grenoble, France.
-
-<!-- <SCRIPT LANGUAGE="JavaScript"> -->
-<!-- user = 'florian.prive.21'; -->
-<!-- site = 'gmail.com'; -->
-<!-- document.write('<a href=\"mailto:' + user + '@' + site + '\">'); -->
-<!-- document.write(user + '@' + site + '</a>'); -->
-<!-- </SCRIPT>  -->
-<!-- </address> -->
-
 ## Interests 
 
 I'm fond of __Data Science__ and an __R(cpp)__ enthusiast.
+
+## Current work
+
+I am a PhD student in predictive human genetics in [BCM team](http://www-timc.imag.fr/rubrique44.html), Laboratoire TIMC-IMAG, Grenoble, France.
+I am currently working on making an R package for fast and memory-efficient
+analysis on massive SNP arrays thanks to [package bigmemory](https://github.com/kaneplusplus/bigmemory).
+
+I am also trying to contribute to R 
+
+- by submitting my own packages to CRAN (or just [GitHub](https://github.com/privefl?tab=repositories)),
+- by [contributing to other projects when I can](https://github.com/pulls?utf8=%E2%9C%93&q=author%3Aprivefl+),
+- by asking and answering questions on [Stack Overflow](http://stackoverflow.com/users/6103040/f-privé),
+- by posting on [R-bloggers](https://www.r-bloggers.com/).
 
 ## Hometown -- Education
 
@@ -33,15 +29,11 @@ I did both my internships in Research,
 - the former on goodness-of-fit tests for the Weibull distribution with censored data (through Monte Carlo simulations),
 - the latter in predictive human genetics, studying a massive dataset on [Celiac disease](https://en.wikipedia.org/wiki/Coeliac_disease).
 
-## Current work
 
-I am a PhD student in predictive human genetics.
-I am currently working on making an R package for fast and memory-efficient
-analysis on massive SNP arrays thanks to [package bigmemory](https://github.com/kaneplusplus/bigmemory).
+## Publications
 
-I am also trying to contribute to R 
+None yet :-(
 
-- by submitting my own packages to CRAN (or just [GitHub](https://github.com/privefl?tab=repositories)),
-- by [contributing to other projects when I can](https://github.com/pulls?utf8=%E2%9C%93&q=author%3Aprivefl+),
-- by asking and answering questions on [Stack Overflow](http://stackoverflow.com/users/6103040/f-privé),
-- by posting on [R-bloggers](https://www.r-bloggers.com/).
+## Conferences
+
+- Speaker at [ALT'2016](http://alt2016.sciencesconf.org/): Goodness-of-fit tests for the Weibull distribution with censored data. <a href="slides_GOFW.pdf#" class="download" title="Download slides">[Slides]</a>

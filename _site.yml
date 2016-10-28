@@ -10,9 +10,6 @@ navbar:
     - text: "About"
       icon: fa-user 
       href: about.html
-    - text: "CV"
-      icon: fa-file-pdf-o
-      href: cv.html
     - text: "Blog"
       icon: fa-rss
       href: https://privefl.github.io/blog/
