@@ -3,7 +3,7 @@ title: "About me"
 ---
 
 <address>
-PhD student under the supervision of [Michael Blum](http://membres-timc.imag.fr/Michael.Blum/) (TIMC-IMAG) and Hugues Aschard (Institut Pasteur).
+PhD student under the supervision of [Michael Blum](https://twitter.com/mblum_g) (TIMC-IMAG) and Hugues Aschard (Institut Pasteur).
 
 [BCM team](http://www-timc.imag.fr/rubrique44.html), Laboratoire TIMC-IMAG, Grenoble, France.
 
@@ -19,12 +19,10 @@ PhD student under the supervision of [Michael Blum](http://membres-timc.imag.fr/
 
 I'm fond of __Data Science__ and an __R(cpp)__ enthusiast.
 
-## Hometown 
+## Hometown -- Education
 
 I'm from [Troyes](https://en.wikipedia.org/wiki/Troyes), France. 
 I naturally like Champagne.
-
-## Education
 
 I was in prep school in [Dijon](https://en.wikipedia.org/wiki/Dijon).
 
