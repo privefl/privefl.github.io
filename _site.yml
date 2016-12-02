@@ -15,7 +15,8 @@ navbar:
       menu:
         - text: "R presentation (prefer Chrome)"
           href: R-presentation/pResentation.html
-          target: _blank
+        - text: "Pruning vs clumping (for SNPs)"
+          href: bigsnpr/articles/pruning-vs-clumping.html
   right:
     - text: "Contact me"
       icon: fa-envelope-o
