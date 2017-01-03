@@ -20,7 +20,7 @@ navbar:
   right:
     - text: "Contact me"
       icon: fa-envelope-o
-      href: "mailto:&#102;&#108;&#111;&#114;&#105;&#097;&#110;&#046;&#112;&#114;&#105;&#118;&#101;&#046;&#050;&#049;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+      href: "mailto:florian.prive.21@gmail.com"
     - text: "GitHub"
       icon: fa-github
       href: https://github.com/privefl/privefl.github.io
