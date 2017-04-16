@@ -11,11 +11,11 @@ navbar:
       icon: fa-rss
       href: https://privefl.github.io/blog/
     - text: "R Packages"
-      icon: fa-bars
+      icon: fa-archive
       menu:
         - text: "bigstatsr"
           href: bigstatsr
-    - text: "Miscellaneous"
+    - text: "Misc"
       icon: fa-bars
       menu:
         - text: "R presentation (prefer Chrome)"
