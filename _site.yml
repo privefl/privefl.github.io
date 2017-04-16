@@ -10,6 +10,11 @@ navbar:
     - text: "Blog"
       icon: fa-rss
       href: https://privefl.github.io/blog/
+    - text: "R Packages"
+      icon: fa-bars
+      menu:
+        - text: "bigstatsr"
+          href: bigstatsr
     - text: "Miscellaneous"
       icon: fa-bars
       menu:
@@ -30,6 +35,6 @@ navbar:
       href: http://stackoverflow.com/users/6103040/f-privé
 output:
   html_document:
-    theme: cosmo
+    theme: readable
     highlight: textmate
     
