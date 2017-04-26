@@ -14,14 +14,16 @@ navbar:
       icon: fa-archive
       menu:
         - text: "bigstatsr"
-          href: bigstatsr
+          desc: "Statistical tools with bigmemory matrices."
+          href: https://privefl.github.io/bigstatsr/
+        - text: "bigsnpr"
+          desc: "Analysis of massive SNP arrays."
+          href: https://privefl.github.io/bigsnpr/
     - text: "Misc"
       icon: fa-bars
       menu:
         - text: "R presentation (prefer Chrome)"
           href: R-presentation/pResentation.html
-        - text: "Pruning vs clumping (for SNPs)"
-          href: bigsnpr/articles/pruning-vs-clumping.html
   right:
     - icon: fa-envelope-o
       href: "mailto:florian.prive.21@gmail.com"
