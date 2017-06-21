@@ -2,7 +2,7 @@
 
 ## Interests 
 
-I'm fond of __Data Science__ and an __R(cpp)__ enthusiast. I'm the co-organizer of [the Grenoble R user group](https://r-in-grenoble.github.io/).
+I'm fond of __Data Science__ and an __R(cpp)__ enthusiast. I'm co-organizer of [the Grenoble R user group](https://r-in-grenoble.github.io/).
 
 ## Current work
 
