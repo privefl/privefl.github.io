@@ -22,6 +22,8 @@ navbar:
     - text: "#rusersgrenoble"
       icon: fa-group
       href: https://r-in-grenoble.github.io/
+    - text: "useR!2017"
+      href: https://privefl.github.io/useR-2017/slides.html
   right:
     - icon: fa-envelope-o
       href: "mailto:florian.prive.21@gmail.com"
