@@ -7,7 +7,7 @@ navbar:
     - text: "About"
       icon: fa-user 
       href: about.html
-    - text: "Blog"
+    - text: "R Blog"
       icon: fa-rss
       href: https://privefl.github.io/blog/
     - text: "R Packages"
@@ -19,11 +19,11 @@ navbar:
         - text: "bigsnpr"
           desc: "Analysis of massive SNP arrays."
           href: https://privefl.github.io/bigsnpr/
-    - text: "Misc"
-      icon: fa-bars
-      menu:
-        - text: "R presentation (prefer Chrome)"
-          href: R-presentation/pResentation.html
+    - text: "#rusersgrenoble"
+      icon: fa-group
+      href: https://r-in-grenoble.github.io/
+    - text: "useR!2017"
+      href: https://privefl.github.io/useR-2017/slides.html
   right:
     - icon: fa-envelope-o
       href: "mailto:florian.prive.21@gmail.com"
