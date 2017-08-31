@@ -7,21 +7,22 @@ navbar:
     - text: "About"
       icon: fa-user 
       href: about.html
-    - text: "R Blog"
-      icon: fa-rss
-      href: https://privefl.github.io/blog/
-    - text: "R Packages"
-      icon: fa-archive
+    - text: "#rstats"
       menu:
-        - text: "bigstatsr"
-          desc: "Statistical tools with bigmemory matrices."
+        - text: "Blog"
+          icon: fa-rss
+          href: https://privefl.github.io/blog/
+        - text: "Package bigstatsr"
+          icon: fa-archive
+          desc: "Statistical tools with big matrices stored on disk."
           href: https://privefl.github.io/bigstatsr/
-        - text: "bigsnpr"
+        - text: "Package bigsnpr"
+          icon: fa-archive
           desc: "Analysis of massive SNP arrays."
           href: https://privefl.github.io/bigsnpr/
-    - text: "#rusersgrenoble"
-      icon: fa-group
-      href: https://r-in-grenoble.github.io/
+        - text: "#rusersgrenoble"
+          icon: fa-group
+          href: https://r-in-grenoble.github.io/
   right:
     - icon: fa-envelope-o
       href: "mailto:florian.prive.21@gmail.com"
