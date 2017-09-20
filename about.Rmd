@@ -19,8 +19,7 @@ I'm fond of __Data Science__ and an __R(cpp)__ enthusiast. I'm co-organizer of [
 
 I am a PhD student (2016 - 2019) in predictive human genetics in [BCM team](http://www-timc.imag.fr/rubrique44.html), Laboratoire TIMC-IMAG, Grenoble, France. My supervisors are [Michael Blum](https://twitter.com/mblum_g) (TIMC-IMAG) and [Hugues Aschard](https://research.pasteur.fr/fr/member/hugues-aschard/) (Institut Pasteur). My thesis is funded by the [LabEx PERSYVAL-Lab](https://persyval-lab.org/en).
 
-I am currently working on making an R package for fast and memory-efficient
-analysis on massive SNP arrays thanks to [package bigmemory](https://github.com/kaneplusplus/bigmemory).
+I am currently working on a comparison of methods for predicting disease based on massive SNP arrays.
 
 I am also trying to contribute to R 
 
@@ -46,7 +45,7 @@ I did both my internships in Research,
 
 ## Publications
 
-None yet :-(
+- Efficient management and analysis of large-scale genome-wide data with two R packages: bigstatsr and bigsnpr. [[Preprint]](http://www.biorxiv.org/content/early/2017/09/19/190926)
 
 ## Conferences
 
