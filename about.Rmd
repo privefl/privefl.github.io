@@ -51,4 +51,13 @@ I did both my internships in Research,
 
 - [useR!2017](https://user2017.brussels/): The R package **bigstatsr**:
 Memory- and Computation-Efficient Tools for Big Matrices. [[Recording]](https://t.co/aYt0q8MeXJ)
+
 - [ALT'2016](http://alt2016.sciencesconf.org/): Goodness-of-fit tests for the Weibull distribution with censored data. [[Slides]](slides_GOFW.pdf#1)
+
+## Some other presentations
+
+- [Visualisation with ggplot2](https://privefl.github.io/R-presentation/ggplot2.html) ([Grenoble RUG](https://r-in-grenoble.github.io/))
+
+- [Thesis follow-up n°1](https://privefl.github.io/thesis-docs/suivi-these.html)
+
+- [Getting My Colleagues Hooked on R](https://privefl.github.io/R-presentation/pResentation.html) (Team seminar)
