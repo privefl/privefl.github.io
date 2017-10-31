@@ -49,6 +49,8 @@ I did both my internships in Research,
 
 ## Conferences
 
+- [hackseq 2017](http://www.hackseq.com/): Developing advanced R tutorials for genomic data analysis [[Website]](https://hackseq.github.io/2017_project_5/)
+
 - [useR!2017](https://user2017.brussels/): The R package **bigstatsr**:
 Memory- and Computation-Efficient Tools for Big Matrices. [[Recording]](https://t.co/aYt0q8MeXJ)
 
