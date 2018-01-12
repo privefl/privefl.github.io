@@ -49,7 +49,9 @@ I did both my internships in Research,
 
 ## Conferences
 
-- [hackseq 2017](http://www.hackseq.com/): Developing advanced R tutorials for genomic data analysis [[Website]](https://hackseq.github.io/2017_project_5/)
+- [LIFE 2018](https://life.univ-grenoble-alpes.fr/life-world/events-news/life-annual-meeting-725690.htm?RH=11210192165071361): Predicting complex diseases: performance and robustness. [[Slides]](https://github.com/privefl/paper2-PRS/blob/master/LIFE/pres-f-priv%C3%A9.pdf)
+
+- [hackseq 2017](http://www.hackseq.com/): Developing advanced R tutorials for genomic data analysis. [[Website]](https://hackseq.github.io/2017_project_5/)
 
 - [useR!2017](https://user2017.brussels/): The R package **bigstatsr**:
 Memory- and Computation-Efficient Tools for Big Matrices. [[Recording]](https://t.co/aYt0q8MeXJ)
