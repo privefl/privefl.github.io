@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -31,10 +31,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -269,7 +271,7 @@ $(document).ready(function () {
   ga('send', 'pageview');
 
 </script>
-
+<p></p>
 <div id="interests" class="section level2">
 <h2>Interests</h2>
 <p>I’m fond of <strong>Data Science</strong> and an <strong>R(cpp)</strong> enthusiast. I’m co-organizer of <a href="https://r-in-grenoble.github.io/">the Grenoble R user group</a>.</p>
@@ -314,6 +316,7 @@ $(document).ready(function () {
 <div id="some-other-presentations" class="section level3">
 <h3>Some other presentations</h3>
 <ul>
+<li><p><a href="https://privefl.github.io/R-presentation/rstudio-git.html">RStudio &amp; Git</a> (<a href="https://r-in-grenoble.github.io/">Grenoble RUG</a>)</p></li>
 <li><p><a href="https://privefl.github.io/R-presentation/ggplot2.html">Visualisation with ggplot2</a> (<a href="https://r-in-grenoble.github.io/">Grenoble RUG</a>)</p></li>
 <li><p><a href="https://privefl.github.io/thesis-docs/suivi-these.html">Thesis follow-up n°1</a></p></li>
 <li><p><a href="https://privefl.github.io/R-presentation/pResentation.html">Getting My Colleagues Hooked on R</a> (<a href="http://membres-timc.imag.fr/Nicolas.Thierry-Mieg/jc_bcm.html">Team seminars</a>)</p></li>
