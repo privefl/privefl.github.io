@@ -23,6 +23,9 @@ navbar:
         - text: "#rusersgrenoble"
           icon: fa-group
           href: https://r-in-grenoble.github.io/
+        - text: "Advanced R course"
+          icon: fa-graduation-cap
+          href: https://privefl.github.io/advr38book/       
   right:
     - icon: fa-envelope-o
       href: "mailto:florian.prive.21@gmail.com"
