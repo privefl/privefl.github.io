@@ -9,13 +9,15 @@
 
 </script>
 
-\cr
+<br>
 
-## Interests 
+I'm fond of __Data Science__ and an __R(cpp)__ enthusiast. 
 
-I'm fond of __Data Science__ and an __R(cpp)__ enthusiast. I'm co-organizer of [the Grenoble R user group](https://r-in-grenoble.github.io/).
+I'm the founder and co-organizer of [the Grenoble R user group](https://r-in-grenoble.github.io/). 
 
-## Current work
+You can find me on [Twitter](https://twitter.com/privefl) and [GitHub](https://github.com/privefl) as \@privefl and on [Stack Overflow](https://stackoverflow.com/users/6103040/f-priv%c3%a9) as F. Privé.
+
+### Current work
 
 I am a PhD student (2016 - 2019) in predictive human genetics in [BCM team](http://www-timc.imag.fr/rubrique44.html), Laboratoire TIMC-IMAG, Grenoble, France. My supervisors are [Michael Blum](https://twitter.com/mblum_g) (TIMC-IMAG) and [Hugues Aschard](https://research.pasteur.fr/fr/member/hugues-aschard/) (Institut Pasteur). My thesis is funded by the [LabEx PERSYVAL-Lab](https://persyval-lab.org/en).
 
@@ -28,7 +30,7 @@ I am also trying to contribute to R
 - by asking and answering questions on [Stack Overflow](http://stackoverflow.com/users/6103040/f-privé),
 - by posting on [R-bloggers](https://www.r-bloggers.com/).
 
-## Hometown -- Education
+### Hometown -- Education
 
 I'm from [Troyes](https://en.wikipedia.org/wiki/Troyes), France. 
 I naturally like Champagne.
@@ -37,33 +39,7 @@ I was in prep school in [Dijon](https://en.wikipedia.org/wiki/Dijon).
 
 Then, I graduated from [ENSIMAG](https://goo.gl/2aDwm1), an engineer school in __Informatics__ and __Applied Mathematics__ in [Grenoble](https://en.wikipedia.org/wiki/Grenoble). 
 
-I did both my internships in Research, 
+I did both my internships in Research:
 
 - the former on goodness-of-fit tests for the Weibull distribution with censored data (through Monte Carlo simulations),
 - the latter in predictive human genetics, studying a massive dataset on [Celiac disease](https://en.wikipedia.org/wiki/Coeliac_disease).
-
-
-## Publications
-
-- Efficient management and analysis of large-scale genome-wide data with two R packages: bigstatsr and bigsnpr. [[Preprint]](http://www.biorxiv.org/content/early/2017/09/19/190926)
-
-## Conferences
-
-- [LIFE 2018](https://life.univ-grenoble-alpes.fr/life-world/events-news/life-annual-meeting-725690.htm?RH=11210192165071361): Predicting complex diseases: performance and robustness. [[Slides]](https://github.com/privefl/paper2-PRS/blob/master/LIFE/pres-f-priv%C3%A9.pdf)
-
-- [hackseq 2017](http://www.hackseq.com/): Developing advanced R tutorials for genomic data analysis. [[Website]](https://hackseq.github.io/2017_project_5/)
-
-- [useR!2017](https://user2017.brussels/): The R package **bigstatsr**:
-Memory- and Computation-Efficient Tools for Big Matrices. [[Recording]](https://t.co/aYt0q8MeXJ)
-
-- [ALT'2016](http://alt2016.sciencesconf.org/): Goodness-of-fit tests for the Weibull distribution with censored data. [[Slides]](slides_GOFW.pdf#1)
-
-### Some other presentations
-
-- [RStudio & Git](https://privefl.github.io/R-presentation/rstudio-git.html) ([Grenoble RUG](https://r-in-grenoble.github.io/))
-
-- [Visualisation with ggplot2](https://privefl.github.io/R-presentation/ggplot2.html) ([Grenoble RUG](https://r-in-grenoble.github.io/))
-
-- [Thesis follow-up n°1](https://privefl.github.io/thesis-docs/suivi-these.html)
-
-- [Getting My Colleagues Hooked on R](https://privefl.github.io/R-presentation/pResentation.html) ([Team seminars](http://membres-timc.imag.fr/Nicolas.Thierry-Mieg/jc_bcm.html))

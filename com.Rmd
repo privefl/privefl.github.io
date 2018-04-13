@@ -1,0 +1,28 @@
+<br>
+
+### Publications
+
+- Privé, Florian, et al. "Efficient analysis of large-scale genome-wide data with two R packages: bigstatsr and bigsnpr." Bioinformatics (2018). [[Open Access]](https://doi.org/10.1093/bioinformatics/bty185)
+
+### Conferences
+
+- [LIFE 2018](https://life.univ-grenoble-alpes.fr/life-world/events-news/life-annual-meeting-725690.htm?RH=11210192165071361): Predicting complex diseases: performance and robustness. [[Slides]](https://github.com/privefl/paper2-PRS/blob/master/LIFE/pres-f-priv%C3%A9.pdf)
+
+- [hackseq 2017](http://www.hackseq.com/): Developing advanced R tutorials for genomic data analysis. [[Website]](https://hackseq.github.io/2017_project_5/)
+
+- [useR!2017](https://user2017.brussels/): The R package bigstatsr:
+Memory- and Computation-Efficient Tools for Big Matrices. [[Recording]](https://t.co/aYt0q8MeXJ)
+
+- [ALT'2016](http://alt2016.sciencesconf.org/): Goodness-of-fit tests for the Weibull distribution with censored data. [[Slides]](slides_GOFW.pdf#1)
+
+### Some other presentations
+
+- [Rcpp](https://privefl.github.io/R-presentation/Rcpp.html) ([Grenoble RUG](https://r-in-grenoble.github.io/))
+
+- [RStudio & Git](https://privefl.github.io/R-presentation/rstudio-git.html) ([Grenoble RUG](https://r-in-grenoble.github.io/))
+
+- [Visualisation with ggplot2](https://privefl.github.io/R-presentation/ggplot2.html) ([Grenoble RUG](https://r-in-grenoble.github.io/))
+
+- [Thesis follow-up n°1](https://privefl.github.io/thesis-docs/suivi-these.html)
+
+- [Getting My Colleagues Hooked on R](https://privefl.github.io/R-presentation/pResentation.html) ([Team seminars](http://membres-timc.imag.fr/Nicolas.Thierry-Mieg/jc_bcm.html))
