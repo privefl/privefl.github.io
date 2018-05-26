@@ -6,6 +6,8 @@
 
 ### Conferences
 
+- [eRum 2018](https://2018.erum.io/): An R package for statistical tools with big matrices stored on disk. [[Slides]](https://privefl.github.io/eRum-2018/slides.html)
+
 - [Recomb-Genetics 2018](http://recomb2018.fr/recomb-genetics/): Predicting complex diseases: performance and robustness. [[Slides]](https://privefl.github.io/thesis-docs/recomb18.html)
 
 - [LIFE 2018](https://life.univ-grenoble-alpes.fr/life-world/events-news/life-annual-meeting-725690.htm?RH=11210192165071361): Predicting complex diseases: performance and robustness. [[Slides]](https://github.com/privefl/paper2-PRS/blob/master/LIFE/pres-f-priv%C3%A9.pdf)
@@ -18,6 +20,8 @@ Memory- and Computation-Efficient Tools for Big Matrices. [[Recording]](https://
 - [ALT'2016](http://alt2016.sciencesconf.org/): Goodness-of-fit tests for the Weibull distribution with censored data. [[Slides]](slides_GOFW.pdf#1)
 
 ### Some other presentations
+
+- [The R package {bigstatsr}: memory- and computation-efficient tools for big matrices stored on disk](https://privefl.github.io/R-presentation/bigstatsr.html) ([Grenoble RUG](https://r-in-grenoble.github.io/))
 
 - [Rcpp](https://privefl.github.io/R-presentation/Rcpp.html) ([Grenoble RUG](https://r-in-grenoble.github.io/))
 
