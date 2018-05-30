@@ -6,7 +6,7 @@
 
 ### Conferences
 
-- [eRum 2018](https://2018.erum.io/): An R package for statistical tools with big matrices stored on disk. [[Slides]](https://privefl.github.io/eRum-2018/slides.html)
+- [eRum 2018](https://2018.erum.io/): An R package for statistical tools with big matrices stored on disk. [[Recording]](https://youtu.be/w3a1-KLmDM8) [[Slides]](https://privefl.github.io/eRum-2018/slides.html)
 
 - [Recomb-Genetics 2018](http://recomb2018.fr/recomb-genetics/): Predicting complex diseases: performance and robustness. [[Slides]](https://privefl.github.io/thesis-docs/recomb18.html)
 
