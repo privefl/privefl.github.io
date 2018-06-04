@@ -15,11 +15,13 @@
 - [hackseq 2017](http://www.hackseq.com/): Developing advanced R tutorials for genomic data analysis. [[Website]](https://hackseq.github.io/2017_project_5/)
 
 - [useR!2017](https://user2017.brussels/): The R package bigstatsr:
-Memory- and Computation-Efficient Tools for Big Matrices. [[Recording]](https://t.co/aYt0q8MeXJ)
+Memory- and Computation-Efficient Tools for Big Matrices. [[Recording]](https://t.co/aYt0q8MeXJ) [[Slides]](https://privefl.github.io/useR-2017/slides.html)
 
 - [ALT'2016](http://alt2016.sciencesconf.org/): Goodness-of-fit tests for the Weibull distribution with censored data. [[Slides]](slides_GOFW.pdf#1)
 
 ### Some other presentations
+
+- [Instructor Software Carpentry](https://grenoble-alpes-data-institute.github.io/2018-05-31-grenoble-software-carpentry/)
 
 - [The R package {bigstatsr}: memory- and computation-efficient tools for big matrices stored on disk](https://privefl.github.io/R-presentation/bigstatsr.html) ([Grenoble RUG](https://r-in-grenoble.github.io/))
 
