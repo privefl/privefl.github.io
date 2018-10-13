@@ -40,5 +40,3 @@ Memory- and Computation-Efficient Tools for Big Matrices. [[Recording]](https://
 - [RStudio & Git](https://privefl.github.io/R-presentation/rstudio-git.html) ([Grenoble RUG](https://r-in-grenoble.github.io/))
 
 - [Visualisation with ggplot2](https://privefl.github.io/R-presentation/ggplot2.html) ([Grenoble RUG](https://r-in-grenoble.github.io/))
-
-- [Getting My Colleagues Hooked on R](https://privefl.github.io/R-presentation/pResentation.html) ([Team seminars](http://membres-timc.imag.fr/Nicolas.Thierry-Mieg/jc_bcm.html))
