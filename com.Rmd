@@ -27,6 +27,10 @@ Memory- and Computation-Efficient Tools for Big Matrices. [[Recording]](https://
 
 ### Some other presentations
 
+- [R Markdown](https://privefl.github.io/R-presentation/rmarkdown.html) ([Grenoble RUG](https://r-in-grenoble.github.io/))
+
+- [R beyond statistics](https://privefl.github.io/R-presentation/beyond-stats.html) ([SARI, Grenoble](https://sari.grenoble-inp.fr/doku.php))
+
 - Efficient analysis of large-scale matrices with two R packages: bigstatsr and bigsnpr: [presentation](https://privefl.github.io/R-presentation/bigstatsr.html) + [exercise](https://privefl.github.io/bigsnpr/articles/exo.html) ([State of The R RUG](https://stateofther.github.io/))
 
 - [Efficient statistical tools for analyzing omics data, with a focus on polygenic risk prediction](https://privefl.github.io/thesis-docs/aarhus.html) (Aarhus, Denmark)
