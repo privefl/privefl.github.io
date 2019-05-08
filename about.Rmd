@@ -12,12 +12,12 @@
 <br>
 
 I'm fond of __Data Science__ and an __R(cpp)__ enthusiast.    
-I'm the founder and co-organizer of [the Grenoble R user group](https://r-in-grenoble.github.io/).    
+I'm the founder and former organizer of [the Grenoble R user group](https://r-in-grenoble.github.io/).    
 You can find me on [Twitter](https://twitter.com/privefl) and [GitHub](https://github.com/privefl) as \@privefl and on [Stack Overflow](https://stackoverflow.com/users/6103040/f-priv%c3%a9) as F. Privé.
 
 ### Current work
 
-I am a PhD student (2016 - 2019) in predictive human genetics in [BCM team](http://www-timc.imag.fr/rubrique44.html), Laboratoire TIMC-IMAG, Grenoble, France.    
+I am a PhD student (2016 - 2019) in predictive human genetics in [BCM team](http://www-timc.imag.fr/rubrique44.html), Laboratoire TIMC-IMAG, Grenoble, France. I moved to Aarhus, Denmark in May 2019.
 My supervisors are [Michael Blum](https://twitter.com/mblum_g) (TIMC-IMAG) and [Hugues Aschard](https://research.pasteur.fr/fr/member/hugues-aschard/) (Institut Pasteur).    
 My thesis is funded by the [LabEx PERSYVAL-Lab](https://persyval-lab.org/en).
 
