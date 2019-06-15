@@ -29,6 +29,8 @@ Memory- and Computation-Efficient Tools for Big Matrices. [[Recording]](https://
 
 ### Some other presentations
 
+You can reuse (and modify) some of my presentations as long as you give attribution (just as in open source licensing).
+
 - [Penalized methods for genetic data analysis](https://privefl.github.io/R-presentation/penalised-genetics.html) ([King's College London](https://www.kcl.ac.uk/ioppn/depts/biostatisticshealthinformatics/teaching/courses/machine-learning))
 
 - [R Markdown](https://privefl.github.io/R-presentation/rmarkdown.html) ([Grenoble RUG](https://r-in-grenoble.github.io/))
