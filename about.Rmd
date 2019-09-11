@@ -28,12 +28,12 @@ I'm from [Troyes](https://en.wikipedia.org/wiki/Troyes), France.
 I naturally like Champagne.    
 
 I was in prep school in [Dijon](https://en.wikipedia.org/wiki/Dijon).    
-Then, I graduated from [ENSIMAG](https://goo.gl/2aDwm1), an engineer school in __Informatics__ and __Applied Mathematics__ in [Grenoble](https://en.wikipedia.org/wiki/Grenoble). 
+Then, in 2016, I graduated from [ENSIMAG](https://goo.gl/2aDwm1), an engineer school in __Informatics__ and __Applied Mathematics__ in [Grenoble](https://en.wikipedia.org/wiki/Grenoble). 
 
 I did both my internships in Research:
 
 - the former on goodness-of-fit tests for the Weibull distribution with censored data (through Monte Carlo simulations),
-- the latter in predictive human genetics, studying a massive dataset on [Celiac disease](https://en.wikipedia.org/wiki/Coeliac_disease).
+- the latter in predictive human genetics, studying a large case-control genetic dataset on [Celiac disease](https://en.wikipedia.org/wiki/Coeliac_disease).
 
 In 2019, I got a **PhD in predictive human genetics** in [BCM team](http://www-timc.imag.fr/rubrique44.html), Laboratoire TIMC-IMAG, Grenoble, France.
 My supervisors were [Michael Blum](https://twitter.com/mblum_g) (TIMC-IMAG) and [Hugues Aschard](https://research.pasteur.fr/fr/member/hugues-aschard/) (Institut Pasteur).    
