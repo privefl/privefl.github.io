@@ -6,6 +6,6 @@ output:
       in_header: cover.html
 ---
 
-I'm a PhD student in predictive human genetics and an R(cpp) enthusiast. 
+I'm a postdoc in predictive human genetics and an R(cpp) enthusiast. 
 
-[Read more about my life...](about.html)
+[Read more about me..](about.html)

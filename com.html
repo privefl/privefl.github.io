@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>com.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -71,9 +71,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -87,7 +85,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -192,8 +189,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -238,6 +233,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -250,20 +246,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -378,9 +371,10 @@ $(document).ready(function () {
 <h3>Publications</h3>
 <p><a href="https://scholar.google.fr/citations?user=ykDpRgwAAAAJ"><strong>FULL LIST</strong></a></p>
 <ul>
-<li><p>Privé, Florian, et al. “Making the most of Clumping and Thresholding for polygenic scores.” bioRxiv (2019). <a href="https://doi.org/10.1101/653204">[Preprint]</a></p></li>
+<li><p>Privé, Florian, et al. “Efficient toolkit implementing best practices for principal component analysis of population genetic data.” BioRxiv (2019): 841452. <a href="https://doi.org/10.1101/841452">[Preprint]</a></p></li>
+<li><p>Privé, Florian, et al. “Making the most of Clumping and Thresholding for polygenic scores.” The American Journal of Human Genetics 105.6 (2019): 1213-1221. <a href="https://github.com/privefl/simus-PRS/blob/master/paper3-SCT/SCT.pdf">[Preprint]</a></p></li>
 <li><p>Privé, Florian, Hugues Aschard, and Michael GB Blum. “Efficient implementation of penalized regression for genetic risk prediction.” Genetics (2019). <a href="https://doi.org/10.1534/genetics.119.302019">[Open access]</a></p></li>
-<li><p>Privé, Florian, et al. “Efficient analysis of large-scale genome-wide data with two R packages: bigstatsr and bigsnpr.” Bioinformatics (2018). <a href="https://doi.org/10.1093/bioinformatics/bty185">[Open access]</a></p></li>
+<li><p>Privé, Florian, et al. “Efficient analysis of large-scale genome-wide data with two R packages: bigstatsr and bigsnpr.” Bioinformatics (2018). <a href="https://doi.org/10.1093/bioinformatics/bty185">[Open access]</a></p></li>
 </ul>
 </div>
 <div id="conferences" class="section level3">
@@ -442,6 +436,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

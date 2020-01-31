@@ -22,6 +22,8 @@ I am a postdoc in Aarhus, Denmark.
 I'm interested in using statistical learning to advance precision medicine.
 Specifically, I'm developing tools to analyse very large datasets and methods to build predictive models based on large genetic data.
 
+[Read more about my work..](com.html)
+
 ### Hometown -- Education
 
 I'm from [Troyes](https://en.wikipedia.org/wiki/Troyes), France. 
