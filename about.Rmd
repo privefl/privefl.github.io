@@ -9,6 +9,10 @@
 
 </script>
 
+```{js, echo = FALSE}
+document.title = "Florian Privé"
+```
+
 <br>
 
 I'm fond of __Data Science__ and an __R(cpp)__ enthusiast.    

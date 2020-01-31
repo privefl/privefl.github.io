@@ -1,3 +1,8 @@
+
+```{js, echo = FALSE}
+document.title = "Florian Privé"
+```
+
 <br>
 
 ### Publications

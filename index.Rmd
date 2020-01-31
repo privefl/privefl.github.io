@@ -6,6 +6,10 @@ output:
       in_header: cover.html
 ---
 
+```{js, echo = FALSE}
+document.title = "Florian Privé"
+```
+
 I'm a postdoc in predictive human genetics and an R(cpp) enthusiast. 
 
 [Read more about me..](about.html)
