@@ -11,7 +11,7 @@ document.title = "Florian Privé"
 
 - Privé, Florian, et al. "Efficient toolkit implementing best practices for principal component analysis of population genetic data." BioRxiv (2019): 841452. [[Preprint]](https://doi.org/10.1101/841452)
 
-- Privé, Florian, et al. "Making the most of Clumping and Thresholding for polygenic scores." The American Journal of Human Genetics 105.6 (2019): 1213-1221. [[Preprint]](https://github.com/privefl/simus-PRS/blob/master/paper3-SCT/SCT.pdf)
+- Privé, Florian, et al. "Making the most of Clumping and Thresholding for polygenic scores." The American Journal of Human Genetics 105.6 (2019): 1213-1221. [[Open access (unformatted)]](https://github.com/privefl/simus-PRS/blob/master/paper3-SCT/SCT.pdf)
 
 - Privé, Florian, Hugues Aschard, and Michael GB Blum. "Efficient implementation of penalized regression for genetic risk prediction." Genetics (2019). [[Open access]](https://doi.org/10.1534/genetics.119.302019)
 
