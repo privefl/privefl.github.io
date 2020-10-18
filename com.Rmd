@@ -9,15 +9,23 @@ document.title = "Florian Privé"
 
 [**FULL LIST**](https://scholar.google.fr/citations?user=ykDpRgwAAAAJ)
 
-- Privé, Florian, et al. "Efficient toolkit implementing best practices for principal component analysis of population genetic data." BioRxiv (2019): 841452. [[Preprint]](https://doi.org/10.1101/841452)
+- Privé, Florian. "Ancestry inference and grouping from principal component analysis of genetic data." bioRxiv (2020). [[Preprint]](https://doi.org/10.1101/2020.10.06.32820)
 
-- Privé, Florian, et al. "Making the most of Clumping and Thresholding for polygenic scores." The American Journal of Human Genetics 105.6 (2019): 1213-1221. [[Open access (unformatted)]](https://github.com/privefl/simus-PRS/blob/master/paper3-SCT/SCT.pdf)
+- Privé, Florian, et al. "LDpred2: better, faster, stronger." bioRxiv (2020). [[Preprint]](https://doi.org/10.1101/2020.04.28.066720)
 
-- Privé, Florian, Hugues Aschard, and Michael GB Blum. "Efficient implementation of penalized regression for genetic risk prediction." Genetics (2019). [[Open access]](https://doi.org/10.1534/genetics.119.302019)
+- Privé, Florian, et al. "Efficient toolkit implementing best practices for principal component analysis of population genetic data." Bioinformatics (2020). [[Open Access]](https://doi.org/10.1093/bioinformatics/btaa520)
 
-- Privé, Florian, et al. "Efficient analysis of large-scale genome-wide data with two R packages: bigstatsr and bigsnpr." Bioinformatics (2018). [[Open access]](https://doi.org/10.1093/bioinformatics/bty185)
+- Privé, Florian, et al. "Making the most of Clumping and Thresholding for polygenic scores." The American Journal of Human Genetics 105.6 (2019): 1213-1221. [[Open access]](https://doi.org/10.1016/j.ajhg.2019.11.001)
+
+- Privé, Florian, et al. "Efficient implementation of penalized regression for genetic risk prediction." Genetics 212.1 (2019): 65-74. [[Open access]](https://doi.org/10.1534/genetics.119.302019)
+
+- Privé, Florian, et al. "Efficient analysis of large-scale genome-wide data with two R packages: bigstatsr and bigsnpr." Bioinformatics 34.16 (2018): 2781-2787. [[Open access]](https://doi.org/10.1093/bioinformatics/bty185)
+
+<br>
 
 ### Conferences
+
+- [e-Rum 2020](https://2020.erum.io/): Ultra fast penalized regressions with R package {bigstatsr}. [[Recording]](https://www.youtube.com/watch?v=sHlj_H8K2RI&t=127s) [[Slides]](https://privefl.github.io/R-presentation/slides-eRum2020.html) 
 
 - [Rencontres R 2018](https://r2018-rennes.sciencesconf.org/): The R package bigstatsr: Memory- and Computation-Efficient Statistical Tools for Big Matrices [[Slides]](https://privefl.github.io/RR18/bigstatsr.html)
 
@@ -34,9 +42,15 @@ Memory- and Computation-Efficient Tools for Big Matrices. [[Recording]](https://
 
 - [ALT'2016](http://alt2016.sciencesconf.org/): Goodness-of-fit tests for the Weibull distribution with censored data. [[Slides]](slides_GOFW.pdf#1)
 
+<br>
+
 ### Some other presentations
 
 You can reuse (and modify) some of my presentations as long as you give attribution (just as in open source licensing).
+
+- [Efficient penalized regression methods for genetic prediction](https://privefl.github.io/thesis-docs/PLR-genetics.html) ([Prediction Modelling Presentations at KCL](https://www.maudsleybrc.nihr.ac.uk/facilities/prediction-modelling-group/))
+
+- [Agile Research](https://privefl.github.io/thesis-docs/agile-research.html) ([NCRR](https://econ.au.dk/the-national-centre-for-register-based-research/))
 
 - [Penalized methods for genetic data analysis](https://privefl.github.io/R-presentation/penalised-genetics.html) ([King's College London](https://www.kcl.ac.uk/ioppn/depts/biostatisticshealthinformatics/teaching/courses/machine-learning))
 
@@ -63,6 +77,8 @@ You can reuse (and modify) some of my presentations as long as you give attribut
 - [RStudio & Git](https://privefl.github.io/R-presentation/rstudio-git.html) ([Grenoble RUG](https://r-in-grenoble.github.io/))
 
 - [Visualisation with ggplot2](https://privefl.github.io/R-presentation/ggplot2.html) ([Grenoble RUG](https://r-in-grenoble.github.io/))
+
+<br>
 
 ### Teaching
 
