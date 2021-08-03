@@ -23,19 +23,19 @@ navbar:
       desc: Analysis of massive SNP arrays.
       href: https://privefl.github.io/bigsnpr/
     - text: '#rusersgrenoble'
-      icon: fa-group
+      icon: fa-users
       href: https://r-in-grenoble.github.io/
     - text: Advanced R course
       icon: fa-graduation-cap
       href: https://privefl.github.io/advr38book/
   right:
-  - icon: fa-envelope-o
+  - icon: fa-envelope-o fa
     href: mailto:florian.prive.21@gmail.com
-  - icon: fa-github
+  - icon: fa-github fa
     href: https://github.com/privefl/privefl.github.io
-  - icon: fa-twitter
+  - icon: fa-twitter fa
     href: https://twitter.com/privefl
-  - icon: fa-stack-overflow
+  - icon: fa-stack-overflow fa
     href: http://stackoverflow.com/users/6103040/f-privé
 output:
   html_document:

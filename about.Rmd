@@ -24,7 +24,7 @@ You can find me on [Twitter](https://twitter.com/privefl) and [GitHub](https://g
 ### Current work
 
 I am a postdoc at Aarhus University (Denmark) with [Bjarni Vilhjálmsson](https://twitter.com/bvilhjal). My work is founded by the Danish National Research Foundation (Niels Bohr Professorship to [John McGrath](https://twitter.com/John_J_McGrath)).
-I will be working fully remotely from France from Dec 2020 to Sept 2021.
+I am working fully remotely from France since December 2020.
 
 I am interested in using statistical learning to advance precision medicine.
 Specifically, I am developing tools to analyze very large datasets and methods to build predictive models based on large genetic data.
