@@ -1,5 +1,5 @@
 ---
-title: "Hi there, I'm Florian Privé!"
+title: "Hi there, I am Florian Privé!"
 output:
   html_document:
     includes:
@@ -10,6 +10,6 @@ output:
 document.title = "Florian Privé"
 ```
 
-I'm a postdoc in predictive human genetics and an R(cpp) enthusiast. 
+I am a researcher in predictive human genetics and an R(cpp) enthusiast. 
 
 [Read more about me..](about.html)

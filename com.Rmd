@@ -11,6 +11,8 @@ document.title = "Florian Privé"
 
 - Privé, Florian, et al. "High-resolution portability of 245 polygenic scores when derived and applied in the same cohort." *medRxiv* (2021). [[Preprint]](https://doi.org/10.1101/2021.02.05.21251061)
 
+- Privé, Florian "Optimal linkage disequilibrium splitting." *Bioinformatics* (2021) [[Open Access]](https://doi.org/10.1093/bioinformatics/btab519)
+
 - Privé, Florian, et al. "LDpred2: better, faster, stronger." *Bioinformatics* 36.22-23 (2020): 5424-5431. [[Open Access]](https://doi.org/10.1093/bioinformatics/btaa1029)
 
 - Privé, Florian, et al. "Efficient toolkit implementing best practices for principal component analysis of population genetic data." *Bioinformatics* 36.16 (2020): 4449-4457. [[Open Access]](https://doi.org/10.1093/bioinformatics/btaa520)

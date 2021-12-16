@@ -23,11 +23,12 @@ You can find me on [Twitter](https://twitter.com/privefl) and [GitHub](https://g
 
 ### Current work
 
-I am a postdoc at Aarhus University (Denmark) with [Bjarni Vilhjálmsson](https://twitter.com/bvilhjal). My work is founded by the Danish National Research Foundation (Niels Bohr Professorship to [John McGrath](https://twitter.com/John_J_McGrath)).
+I am starting a Senior Researcher position at Aarhus University (AU, Denmark) in 2022.
+Since October 2019, I have been a postdoc at AU with [Bjarni Vilhjálmsson](https://twitter.com/bvilhjal), founded by the Danish National Research Foundation (Niels Bohr Professorship to [John McGrath](https://twitter.com/John_J_McGrath)) and a Lundbeck Foundation Fellowship (to Bjarni Vilhjálmsson).
 I am working fully remotely from France since December 2020.
 
 I am interested in using statistical learning to advance precision medicine.
-Specifically, I am developing tools to analyze very large datasets and methods to build predictive models based on large genetic data.
+Specifically, I am developing tools (e.g. R package {bigsnpr}) to analyze very large datasets and methods to build predictive models based on large genetic data.
 
 [Read more about my work..](com.html)
 
@@ -39,6 +40,6 @@ I naturally like Champagne.
 I was in prep school in [Dijon](https://en.wikipedia.org/wiki/Dijon).    
 Then, in 2016, I graduated from [ENSIMAG](https://goo.gl/2aDwm1), an engineer school in __Informatics__ and __Applied Mathematics__ in [Grenoble](https://en.wikipedia.org/wiki/Grenoble). 
 
-In 2019, I got a **PhD in predictive human genetics** in [BCM team](http://www-timc.imag.fr/rubrique44.html), Laboratoire TIMC-IMAG, Grenoble, France.
+In September 2019, I got a **PhD in predictive human genetics** in [BCM team](http://www-timc.imag.fr/rubrique44.html), Laboratoire TIMC-IMAG, Grenoble, France.
 My supervisors were [Michael Blum](https://twitter.com/mblum_g) (TIMC-IMAG) and [Hugues Aschard](https://research.pasteur.fr/fr/member/hugues-aschard/) (Institut Pasteur).
 My thesis was funded by the [LabEx PERSYVAL-Lab](https://persyval-lab.org/en).
