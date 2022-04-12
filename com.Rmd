@@ -13,7 +13,7 @@ document.title = "Florian Privé"
 
 - Privé, Florian. "Using the UK Biobank as a global reference of worldwide populations: application to measuring ancestry diversity from GWAS summary statistics." *bioRxiv* (2021). [[preprint]](https://doi.org/10.1101/2021.10.27.466078)
 
-- Privé, Florian, et al. "Portability of 245 polygenic scores when derived from the UK Biobank and applied to 9 ancestry groups from the same cohort." *The American Journal of Human Genetics* 109.1 (2022): 12-23. [[Paper]](https://authors.elsevier.com/a/1eNDcgeW%7Ej2f)
+- Privé, Florian, et al. "Portability of 245 polygenic scores when derived from the UK Biobank and applied to 9 ancestry groups from the same cohort." *The American Journal of Human Genetics* 109.1 (2022): 12-23. [[Paper]](https://doi.org/10.1016/j.ajhg.2021.11.008)
 
 - Privé, Florian. "Optimal linkage disequilibrium splitting." *Bioinformatics* 38.1 (2022): 255–256. [[Open Access]](https://doi.org/10.1093/bioinformatics/btab519)
 
@@ -58,11 +58,15 @@ Memory- and Computation-Efficient Tools for Big Matrices. [[Recording]](https://
 
 You can reuse (and modify) some of my presentations as long as you give attribution (just as in open source licensing).
 
+- [Memory- and Computation-Efficient Statistical Tools for Big Matrices](https://privefl.github.io/R-presentation/bigrverse.html) ([R-Lille RUG](https://t.co/fzuM15GBCT)) [[Recording]](https://www.youtube.com/watch?v=UXKYqpAo6cs)
+
+- [Predicting complex traits and diseases from genetic data](https://privefl.github.io/thesis-docs/lecture-KI.html) ([Lecture at Karolinska Institute](https://kiwas.ki.se/katalog/katalog/kurs/9304))
+
 - [Efficient penalized regression methods for genetic prediction](https://privefl.github.io/thesis-docs/PLR-genetics.html) ([Prediction Modelling Presentations at KCL](https://www.maudsleybrc.nihr.ac.uk/facilities/prediction-modelling-group/))
 
 - [Agile Research](https://privefl.github.io/thesis-docs/agile-research.html) ([NCRR](https://econ.au.dk/the-national-centre-for-register-based-research/))
 
-- [Penalized methods for genetic data analysis](https://privefl.github.io/R-presentation/penalised-genetics.html) ([King's College London](https://www.kcl.ac.uk/ioppn/depts/biostatisticshealthinformatics/teaching/courses/machine-learning))
+- [Penalized methods for genetic data analysis](https://privefl.github.io/R-presentation/penalised-genetics.html) ([Lecture at King's College London](https://www.kcl.ac.uk/ioppn/depts/biostatisticshealthinformatics/teaching/courses/machine-learning))
 
 - [R Markdown](https://privefl.github.io/R-presentation/rmarkdown.html) ([Grenoble RUG](https://r-in-grenoble.github.io/))
 
