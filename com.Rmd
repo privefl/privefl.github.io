@@ -9,7 +9,7 @@ document.title = "Florian Privé"
 
 [**FULL LIST**](https://scholar.google.fr/citations?user=ykDpRgwAAAAJ)
 
-- Privé, Florian, et al. "Identifying and correcting multiple sources of misspecification in GWAS summary statistics for polygenic scores." *bioRxiv* (2021). [[preprint]](https://doi.org/10.1101/2021.03.29.437510)
+- Privé, Florian, et al. "Identifying and correcting for misspecifications in GWAS summary statistics and polygenic scores." *bioRxiv* (2022). [[preprint]](https://doi.org/10.1101/2021.03.29.437510)
 
 - Privé, Florian. "Using the UK Biobank as a global reference of worldwide populations: application to measuring ancestry diversity from GWAS summary statistics." *bioRxiv* (2021). [[preprint]](https://doi.org/10.1101/2021.10.27.466078)
 
