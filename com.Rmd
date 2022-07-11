@@ -11,9 +11,9 @@ document.title = "Florian Privé"
 
 - Privé, Florian, et al. "Identifying and correcting for misspecifications in GWAS summary statistics and polygenic scores." *bioRxiv* (2022). [[preprint]](https://doi.org/10.1101/2021.03.29.437510)
 
-- Privé, Florian. "Using the UK Biobank as a global reference of worldwide populations: application to measuring ancestry diversity from GWAS summary statistics." *bioRxiv* (2021). [[preprint]](https://doi.org/10.1101/2021.10.27.466078)
+- Privé, Florian. "Using the UK Biobank as a global reference of worldwide populations: application to measuring ancestry diversity from GWAS summary statistics." *Bioinformatics* 38.13 (2022): 3477-3480. [[Open Access]](https://doi.org/10.1093/bioinformatics/btac348)
 
-- Privé, Florian, et al. "Portability of 245 polygenic scores when derived from the UK Biobank and applied to 9 ancestry groups from the same cohort." *The American Journal of Human Genetics* 109.1 (2022): 12-23. [[Paper]](https://doi.org/10.1016/j.ajhg.2021.11.008)
+- Privé, Florian, et al. "Portability of 245 polygenic scores when derived from the UK Biobank and applied to 9 ancestry groups from the same cohort." *The American Journal of Human Genetics* 109.1 (2022): 12-23. [[Open Access]](https://doi.org/10.1016/j.ajhg.2021.11.008)
 
 - Privé, Florian. "Optimal linkage disequilibrium splitting." *Bioinformatics* 38.1 (2022): 255–256. [[Open Access]](https://doi.org/10.1093/bioinformatics/btab519)
 
