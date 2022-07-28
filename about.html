@@ -11,10 +11,10 @@
 
 
 
-<title>about.utf8</title>
+<title>about.knit</title>
 
-<script src="site_libs/header-attrs-2.7.2/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -245,7 +245,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="about.html">
-    <span class="fas fa-user"></span>
+    <span class="fa fa-user"></span>
      
     About
   </a>
@@ -262,35 +262,35 @@ $(document).ready(function () {
   <ul class="dropdown-menu" role="menu">
     <li>
       <a href="https://privefl.github.io/blog/">
-        <span class="fas fa-rss"></span>
+        <span class="fa fa-rss"></span>
          
         Blog
       </a>
     </li>
     <li>
       <a href="https://privefl.github.io/bigstatsr/">
-        <span class="fas fa-archive"></span>
+        <span class="fa fa-archive"></span>
          
         Package bigstatsr
       </a>
     </li>
     <li>
       <a href="https://privefl.github.io/bigsnpr/">
-        <span class="fas fa-archive"></span>
+        <span class="fa fa-archive"></span>
          
         Package bigsnpr
       </a>
     </li>
     <li>
       <a href="https://r-in-grenoble.github.io/">
-        <span class="fas fa-users"></span>
+        <span class="fa fa-users"></span>
          
         #rusersgrenoble
       </a>
     </li>
     <li>
       <a href="https://privefl.github.io/advr38book/">
-        <span class="fas fa-graduation-cap"></span>
+        <span class="fa fa-graduation-cap"></span>
          
         Advanced R course
       </a>
@@ -301,25 +301,25 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="mailto:florian.prive.21@gmail.com">
-    <span class="fas fa-envelope-o fa"></span>
+    <span class="fa fa-envelope-o fa"></span>
      
   </a>
 </li>
 <li>
   <a href="https://github.com/privefl/privefl.github.io">
-    <span class="fas fa-github fa"></span>
+    <span class="fa fa-github fa"></span>
      
   </a>
 </li>
 <li>
   <a href="https://twitter.com/privefl">
-    <span class="fas fa-twitter fa"></span>
+    <span class="fa fa-twitter fa"></span>
      
   </a>
 </li>
 <li>
   <a href="http://stackoverflow.com/users/6103040/f-privé">
-    <span class="fas fa-stack-overflow fa"></span>
+    <span class="fa fa-stack-overflow fa"></span>
      
   </a>
 </li>
@@ -336,15 +336,14 @@ $(document).ready(function () {
 </div>
 
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-100463316-3"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  ga('create', 'UA-100463316-3', 'auto');
-  ga('send', 'pageview');
-
+  gtag('config', 'UA-100463316-3');
 </script>
 <script type="text/javascript">
 document.title = "Florian Privé"
