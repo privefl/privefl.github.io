@@ -32,7 +32,7 @@ navbar:
   - icon: fa-envelope-o fa
     href: mailto:florian.prive.21@gmail.com
   - icon: fa-github fa
-    href: https://github.com/privefl/privefl.github.io
+    href: https://github.com/privefl/
   - icon: fa-twitter fa
     href: https://twitter.com/privefl
   - icon: fa-stack-overflow fa
