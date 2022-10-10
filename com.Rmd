@@ -9,7 +9,7 @@ document.title = "Florian Privé"
 
 [**FULL LIST**](https://scholar.google.fr/citations?user=ykDpRgwAAAAJ)
 
-- Privé, Florian, et al. "Identifying and correcting for misspecifications in GWAS summary statistics and polygenic scores." *bioRxiv* (2022). [[preprint]](https://doi.org/10.1101/2021.03.29.437510)
+- Privé, Florian, et al. "Identifying and correcting for misspecifications in GWAS summary statistics and polygenic scores." *Human Genetics and Genomics Advances* 3.4 (2022). [[Open Access]](https://doi.org/10.1016/j.xhgg.2022.100136)
 
 - Privé, Florian. "Using the UK Biobank as a global reference of worldwide populations: application to measuring ancestry diversity from GWAS summary statistics." *Bioinformatics* 38.13 (2022): 3477-3480. [[Open Access]](https://doi.org/10.1093/bioinformatics/btac348)
 
@@ -20,6 +20,8 @@ document.title = "Florian Privé"
 - Privé, Florian, et al. "LDpred2: better, faster, stronger." *Bioinformatics* 36.22-23 (2020): 5424-5431. [[Open Access]](https://doi.org/10.1093/bioinformatics/btaa1029)
 
 - Privé, Florian, et al. "Efficient toolkit implementing best practices for principal component analysis of population genetic data." *Bioinformatics* 36.16 (2020): 4449-4457. [[Open Access]](https://doi.org/10.1093/bioinformatics/btaa520)
+
+- Privé, Florian, et al. "Performing highly efficient genome scans for local adaptation with R package pcadapt version 4." *Molecular Biology and Evolution* 37.7 (2020): 2153-2154. [[Open access]](https://doi.org/10.1093/molbev/msaa053)
 
 - Privé, Florian, et al. "Making the most of Clumping and Thresholding for polygenic scores." *The American Journal of Human Genetics* 105.6 (2019): 1213-1221. [[Open access]](https://doi.org/10.1016/j.ajhg.2019.11.001)
 
@@ -96,7 +98,7 @@ You can reuse (and modify) some of my presentations as long as you give attribut
 
 ### Teaching
 
-- advanced R course for PhD students (111H in four years); see [online materials](https://privefl.github.io/advr38book/)
+- advanced R course for PhD students (141H in five years); see [online materials](https://privefl.github.io/advr38book/)
 
 - introductory R course for PhD students (21H)
 

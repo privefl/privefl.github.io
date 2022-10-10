@@ -13,7 +13,7 @@
 
 <title>com.knit</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -234,7 +242,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -254,7 +262,7 @@ $(document).ready(function () {
   <a href="com.html">Papers / Talks</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     #rstats
      
     <span class="caret"></span>
@@ -344,12 +352,13 @@ document.title = "Florian Privé"
 <h3>Publications</h3>
 <p><a href="https://scholar.google.fr/citations?user=ykDpRgwAAAAJ"><strong>FULL LIST</strong></a></p>
 <ul>
-<li><p>Privé, Florian, et al. “Identifying and correcting for misspecifications in GWAS summary statistics and polygenic scores.” <em>bioRxiv</em> (2022). <a href="https://doi.org/10.1101/2021.03.29.437510">[preprint]</a></p></li>
+<li><p>Privé, Florian, et al. “Identifying and correcting for misspecifications in GWAS summary statistics and polygenic scores.” <em>Human Genetics and Genomics Advances</em> 3.4 (2022). <a href="https://doi.org/10.1016/j.xhgg.2022.100136">[Open Access]</a></p></li>
 <li><p>Privé, Florian. “Using the UK Biobank as a global reference of worldwide populations: application to measuring ancestry diversity from GWAS summary statistics.” <em>Bioinformatics</em> 38.13 (2022): 3477-3480. <a href="https://doi.org/10.1093/bioinformatics/btac348">[Open Access]</a></p></li>
 <li><p>Privé, Florian, et al. “Portability of 245 polygenic scores when derived from the UK Biobank and applied to 9 ancestry groups from the same cohort.” <em>The American Journal of Human Genetics</em> 109.1 (2022): 12-23. <a href="https://doi.org/10.1016/j.ajhg.2021.11.008">[Open Access]</a></p></li>
 <li><p>Privé, Florian. “Optimal linkage disequilibrium splitting.” <em>Bioinformatics</em> 38.1 (2022): 255–256. <a href="https://doi.org/10.1093/bioinformatics/btab519">[Open Access]</a></p></li>
 <li><p>Privé, Florian, et al. “LDpred2: better, faster, stronger.” <em>Bioinformatics</em> 36.22-23 (2020): 5424-5431. <a href="https://doi.org/10.1093/bioinformatics/btaa1029">[Open Access]</a></p></li>
 <li><p>Privé, Florian, et al. “Efficient toolkit implementing best practices for principal component analysis of population genetic data.” <em>Bioinformatics</em> 36.16 (2020): 4449-4457. <a href="https://doi.org/10.1093/bioinformatics/btaa520">[Open Access]</a></p></li>
+<li><p>Privé, Florian, et al. “Performing highly efficient genome scans for local adaptation with R package pcadapt version 4.” <em>Molecular Biology and Evolution</em> 37.7 (2020): 2153-2154. <a href="https://doi.org/10.1093/molbev/msaa053">[Open access]</a></p></li>
 <li><p>Privé, Florian, et al. “Making the most of Clumping and Thresholding for polygenic scores.” <em>The American Journal of Human Genetics</em> 105.6 (2019): 1213-1221. <a href="https://doi.org/10.1016/j.ajhg.2019.11.001">[Open access]</a></p></li>
 <li><p>Privé, Florian, et al. “Efficient implementation of penalized regression for genetic risk prediction.” <em>Genetics</em> 212.1 (2019): 65-74. <a href="https://doi.org/10.1534/genetics.119.302019">[Open access]</a></p></li>
 <li><p>Privé, Florian, et al. “Efficient analysis of large-scale genome-wide data with two R packages: bigstatsr and bigsnpr.” <em>Bioinformatics</em> 34.16 (2018): 2781-2787. <a href="https://doi.org/10.1093/bioinformatics/bty185">[Open access]</a></p></li>
@@ -399,7 +408,7 @@ document.title = "Florian Privé"
 <div id="teaching" class="section level3">
 <h3>Teaching</h3>
 <ul>
-<li><p>advanced R course for PhD students (111H in four years); see <a href="https://privefl.github.io/advr38book/">online materials</a></p></li>
+<li><p>advanced R course for PhD students (141H in five years); see <a href="https://privefl.github.io/advr38book/">online materials</a></p></li>
 <li><p>introductory R course for PhD students (21H)</p></li>
 <li><p>statistical methods for first year engineer students (third year after high school) at ENSIMAG (18H)</p></li>
 <li><p>lectures and practical exercises in Mathematics for students in their first semester after high school (128H in two years)</p></li>

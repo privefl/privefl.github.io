@@ -1,13 +1,15 @@
 ---
-title: "Hi there, I am Florian Privé!"
-output:
-  html_document:
-    includes:
-      in_header: cover.html
+output: html_document
 ---
 
 ```{js, echo = FALSE}
 document.title = "Florian Privé"
+```
+
+## Hi there, I am Florian Privé!
+
+```{r, out.width="100%", echo=FALSE}
+knitr::include_graphics("cover.JPG")
 ```
 
 I am a researcher in predictive human genetics and an R(cpp) enthusiast. 
