@@ -13,7 +13,7 @@
 
 <title>about.knit</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
@@ -34,6 +34,7 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -180,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -189,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -314,6 +308,12 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
+  <a href="https://scholar.google.fr/citations?user=ykDpRgwAAAAJ">
+    <span class="ai ai-google-scholar ai"></span>
+     
+  </a>
+</li>
+<li>
   <a href="https://github.com/privefl/">
     <span class="fa fa-github fa"></span>
      
@@ -359,23 +359,50 @@ document.title = "Florian Privé"
 <p><br></p>
 <div id="about-me" class="section level3">
 <h3>About me</h3>
-<p>I am fond of <strong>Data Science</strong> and an <strong>R(cpp)</strong> enthusiast.<br />
-I am the founder and former organizer of <a href="https://r-in-grenoble.github.io/">the Grenoble R user group</a>.<br />
-You can find me on <a href="https://twitter.com/privefl">Twitter</a> and <a href="https://github.com/privefl">GitHub</a> as <strong>@privefl</strong> and on <a href="https://stackoverflow.com/users/6103040/f-priv%c3%a9">Stack Overflow</a> as F. Privé.</p>
+<p>I am fond of <strong>Data Science</strong> and an
+<strong>R(cpp)</strong> enthusiast.<br />
+I am the founder and former organizer of <a
+href="https://r-in-grenoble.github.io/">the Grenoble R user
+group</a>.<br />
+You can find me on <a href="https://twitter.com/privefl">Twitter</a> and
+<a href="https://github.com/privefl">GitHub</a> as
+<strong>@privefl</strong> and on <a
+href="https://stackoverflow.com/users/6103040/f-priv%c3%a9">Stack
+Overflow</a> as F. Privé.</p>
 </div>
 <div id="current-work" class="section level3">
 <h3>Current work</h3>
-<p>I am interested in using statistical learning to advance precision medicine. Specifically, I am developing tools (e.g. R package {bigsnpr}) to analyze very large datasets and methods to build predictive models based on large genetic data.</p>
-<p>Since January 2022, I have a Senior Researcher position at Aarhus University (AU, Denmark), funded by a Lundbeck Foundation Fellowship (to <a href="https://twitter.com/bvilhjal">Bjarni Vilhjálmsson</a>). I have been working fully remotely from France since December 2020.</p>
+<p>I am interested in using statistical learning to advance precision
+medicine. Specifically, I am developing tools (e.g. R package {bigsnpr})
+to analyze very large datasets and methods to build predictive models
+based on large genetic data.</p>
+<p>Since January 2022, I have a Senior Researcher position at Aarhus
+University (AU, Denmark), funded by a Lundbeck Foundation Fellowship (to
+<a href="https://twitter.com/bvilhjal">Bjarni Vilhjálmsson</a>). I have
+been working fully remotely from France since December 2020.</p>
 <p><a href="com.html">Read more about my work..</a></p>
 </div>
 <div id="hometown-education-research" class="section level3">
 <h3>Hometown – Education – Research</h3>
-<p>I am from <a href="https://en.wikipedia.org/wiki/Troyes">Troyes</a>, France. I naturally like Champagne.</p>
-<p>I was in prep school in <a href="https://en.wikipedia.org/wiki/Dijon">Dijon</a>.<br />
-Then, in 2016, I graduated from <a href="https://goo.gl/2aDwm1">ENSIMAG</a>, an engineer school in <strong>Informatics</strong> and <strong>Applied Mathematics</strong> in <a href="https://en.wikipedia.org/wiki/Grenoble">Grenoble</a>.</p>
-<p>In September 2019, I got a <strong>PhD in predictive human genetics</strong> in <a href="https://www.timc.fr/BCM">BCM team</a>, Laboratoire TIMC-IMAG, Grenoble, France. My supervisors were <a href="https://twitter.com/mblum_g">Michael Blum</a> (TIMC-IMAG) and <a href="https://research.pasteur.fr/fr/member/hugues-aschard/">Hugues Aschard</a> (Institut Pasteur). My thesis was funded by the <a href="https://persyval-lab.org/en">LabEx PERSYVAL-Lab</a>.</p>
-<p>From October 2019 to December 2021, I was a postdoc at AU with <a href="https://twitter.com/bvilhjal">Bjarni Vilhjálmsson</a>, founded by the Danish National Research Foundation (Niels Bohr Professorship to <a href="https://twitter.com/John_J_McGrath">John McGrath</a>).</p>
+<p>I am from <a href="https://en.wikipedia.org/wiki/Troyes">Troyes</a>,
+France. I naturally like Champagne.</p>
+<p>I was in prep school in <a
+href="https://en.wikipedia.org/wiki/Dijon">Dijon</a>.<br />
+Then, in 2016, I graduated from <a
+href="https://goo.gl/2aDwm1">ENSIMAG</a>, an engineer school in
+<strong>Informatics</strong> and <strong>Applied Mathematics</strong> in
+<a href="https://en.wikipedia.org/wiki/Grenoble">Grenoble</a>.</p>
+<p>In September 2019, I got a <strong>PhD in predictive human
+genetics</strong> in <a href="https://www.timc.fr/BCM">BCM team</a>,
+Laboratoire TIMC-IMAG, Grenoble, France. My supervisors were <a
+href="https://twitter.com/mblum_g">Michael Blum</a> (TIMC-IMAG) and <a
+href="https://research.pasteur.fr/fr/member/hugues-aschard/">Hugues
+Aschard</a> (Institut Pasteur). My thesis was funded by the <a
+href="https://persyval-lab.org/en">LabEx PERSYVAL-Lab</a>.</p>
+<p>From October 2019 to December 2021, I was a postdoc at AU with <a
+href="https://twitter.com/bvilhjal">Bjarni Vilhjálmsson</a>, founded by
+the Danish National Research Foundation (Niels Bohr Professorship to <a
+href="https://twitter.com/John_J_McGrath">John McGrath</a>).</p>
 </div>
 
 

@@ -31,6 +31,8 @@ navbar:
   right:
   - icon: fa-envelope-o fa
     href: mailto:florian.prive.21@gmail.com
+  - icon: ai-google-scholar ai
+    href: https://scholar.google.fr/citations?user=ykDpRgwAAAAJ
   - icon: fa-github fa
     href: https://github.com/privefl/
   - icon: fa-twitter fa
@@ -43,4 +45,6 @@ output:
     highlight: textmate
     lib_dir: site_libs
     self_contained: no
+    includes:
+      in_header: header.html
 
