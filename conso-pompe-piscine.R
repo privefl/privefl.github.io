@@ -3,5 +3,10 @@ conso <- c(0, 142, 157, 178, 200, 225, 254, 293, 324, 365, 411, 464, 607, 799, 1
 
 library(ggplot2)
 theme_set(theme_bw(16))
-qplot(vitesse, conso) + geom_line()
-qplot(vitesse, conso / vitesse) + geom_line() + ylim(0, NA)
+qplot(vitesse, conso) + 
+  geom_line() +
+  geom_abline(slope = 142 / 1000, color = "blue")
+
+qplot(vitesse, conso / vitesse) +
+  geom_line() + ylim(0, NA) +
+  geom_hline(yintercept = min(conso / vitesse, na.rm = TRUE), color = "blue")
