@@ -9,6 +9,8 @@ document.title = "Florian Privé"
 
 [**FULL LIST**](https://scholar.google.fr/citations?user=ykDpRgwAAAAJ)
 
+- Privé, Florian, et al. "Inferring disease architecture and predictive ability with LDpred2-auto." *The American Journal of Human Genetics* 110.12 (2023): 2042-2055. [[Open Access]](https://doi.org/10.1016/j.ajhg.2023.10.010)
+
 - Privé, Florian, et al. "Identifying and correcting for misspecifications in GWAS summary statistics and polygenic scores." *Human Genetics and Genomics Advances* 3.4 (2022). [[Open Access]](https://doi.org/10.1016/j.xhgg.2022.100136)
 
 - Privé, Florian. "Using the UK Biobank as a global reference of worldwide populations: application to measuring ancestry diversity from GWAS summary statistics." *Bioinformatics* 38.13 (2022): 3477-3480. [[Open Access]](https://doi.org/10.1093/bioinformatics/btac348)
@@ -33,7 +35,11 @@ document.title = "Florian Privé"
 
 ### Conferences
 
-- [invited] [SMPGD 2022](https://smpgd2022.sciencesconf.org/): Predicting complex traits and diseases from genetic data. [[Slides]](https://privefl.github.io/thesis-docs/smpgd22.html) 
+- [EMGM 2024](https://emgm2024.ista.ac.at/): Quality Control of GWAS Summary Statistics. [[Slides]](https://privefl.github.io/thesis-docs/EMGM2024.html) 
+
+- WCPG 2023: Recent and Future Updates to LDpred2 for Polygenic Scores and Inference. [[Slides]](https://privefl.github.io/thesis-docs/ldpred2-wcpg2023.html) 
+
+- [SMPGD 2022](https://smpgd2022.sciencesconf.org/): Predicting complex traits and diseases from genetic data. [[Slides]](https://privefl.github.io/thesis-docs/smpgd22.html) 
 
 - [APRS 2021](https://aacb.eventsair.com/aprs2021/): High-resolution portability of 245 polygenic scores when derived and applied in the same cohort. [[Recording]](https://youtu.be/NVOVZYeWqs4) [[Slides]](https://privefl.github.io/UKBB-PGS/APRS2021.html) 
 
@@ -98,7 +104,7 @@ You can reuse (and modify) some of my presentations as long as you give attribut
 
 ### Teaching
 
-- advanced R course for PhD students (141H in five years); see [online materials](https://privefl.github.io/advr38book/)
+- advanced R course for PhD students (200H in seven years); see [online materials](https://privefl.github.io/advr38book/)
 
 - introductory R course for PhD students (21H)
 
