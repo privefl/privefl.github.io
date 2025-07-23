@@ -12,6 +12,6 @@ document.title = "Florian Privé"
 knitr::include_graphics("cover.JPG")
 ```
 
-I am a researcher in predictive human genetics and an R(cpp) enthusiast. 
+I am a data scientist and an R(cpp) enthusiast, previously an academic researcher. 
 
 [Read more about me..](about.html)

@@ -35,6 +35,14 @@ document.title = "Florian Privé"
 
 ### Conferences
 
+- [ISHG 2025](https://ishg2025.sciencesconf.org/?lang=en): Improved ancestry and admixture detection
+using principal component analysis (PCA)
+of genetic data. [[Slides]](https://privefl.github.io/thesis-docs/ISHG2025.html)
+
+- [EMGM 2025](https://emgm2025.sciencesconf.org/): Improved ancestry and admixture detection
+using principal component analysis (PCA)
+of genetic data. [[Slides]](https://privefl.github.io/thesis-docs/EMGM2025.html)
+
 - [EMGM 2024](https://emgm2024.ista.ac.at/): Quality Control of GWAS Summary Statistics. [[Slides]](https://privefl.github.io/thesis-docs/EMGM2024.html) 
 
 - WCPG 2023: Recent and Future Updates to LDpred2 for Polygenic Scores and Inference. [[Slides]](https://privefl.github.io/thesis-docs/ldpred2-wcpg2023.html) 
@@ -66,13 +74,17 @@ Memory- and Computation-Efficient Tools for Big Matrices. [[Recording]](https://
 
 You can reuse (and modify) some of my presentations as long as you give attribution (just as in open source licensing).
 
+- [Quality control and imputation of GWAS summary statistics](https://privefl.github.io/thesis-docs/qc-imp.html) (Zoltán Kutalik's Statistical Genetics group) 
+
+- [Improved ancestry and admixture detection using principal component analysis of genetic data](https://privefl.github.io/thesis-docs/ancestry-deconv3.html) (Département de Biologie Computationnelle, UNIL, Lausanne)
+
 - [Memory- and Computation-Efficient Statistical Tools for Big Matrices](https://privefl.github.io/R-presentation/bigrverse.html) ([R-Lille RUG](https://t.co/fzuM15GBCT)) [[Recording]](https://www.youtube.com/watch?v=UXKYqpAo6cs)
 
 - [Predicting complex traits and diseases from genetic data](https://privefl.github.io/thesis-docs/lecture-KI.html) ([Lecture at Karolinska Institute](https://kiwas.ki.se/katalog/katalog/kurs/9304))
 
 - [Efficient penalized regression methods for genetic prediction](https://privefl.github.io/thesis-docs/PLR-genetics.html) ([Prediction Modelling Presentations at KCL](https://www.maudsleybrc.nihr.ac.uk/facilities/prediction-modelling-group/))
 
-- [Agile Research](https://privefl.github.io/thesis-docs/agile-research.html) ([NCRR](https://econ.au.dk/the-national-centre-for-register-based-research/))
+- [Agile Research](https://privefl.github.io/thesis-docs/agile-research.html) ([NCRR](https://ncrr.au.dk/))
 
 - [Penalized methods for genetic data analysis](https://privefl.github.io/R-presentation/penalised-genetics.html) ([Lecture at King's College London](https://www.kcl.ac.uk/ioppn/depts/biostatisticshealthinformatics/teaching/courses/machine-learning))
 
@@ -104,7 +116,9 @@ You can reuse (and modify) some of my presentations as long as you give attribut
 
 ### Teaching
 
-- advanced R course for PhD students (200H in seven years); see [online materials](https://privefl.github.io/advr38book/)
+- statistical genetics course using R (22H); see [online materials](https://privefl.github.io/statgen-course/)
+
+- advanced R course for PhD students (230H in eight years); see [online materials](https://privefl.github.io/advr38book/)
 
 - introductory R course for PhD students (21H)
 
