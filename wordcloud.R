@@ -1,17 +1,27 @@
-DOIs <- c("10.1093/bioinformatics/btab519", "10.1101/2021.02.05.21251061",
+# remotes::install_github("ropensci-archive/rplos")
+# remotes::install_github("ropensci-archive/microdemic")
+# remotes::install_github("ropensci-archive/fulltext")
+DOIs <- c("10.1101/2022.10.10.511629", "10.1093/bioinformatics/btac348",
+          "10.1101/2021.03.29.437510", "10.1093/bioinformatics/btab519",
           "10.1101/2020.10.30.362079", "10.1101/2020.10.06.328203",
           "10.1093/bioinformatics/btaa1029", "10.1093/molbev/msaa053",
-          "10.1093/bioinformatics/btaa520", "10.1016/j.ajhg.2019.11.001",
+          "10.1093/bioinformatics/btaa520", "10.1101/653204",
           "10.1534/genetics.119.302019", "10.1093/bioinformatics/bty185")
-abstracts <- fulltext::ft_abstract(DOIs, from = "semanticscholar")$semanticscholar
+abstracts <- fulltext::ft_abstract(DOIs, from = "crossref")$crossref
 
-abstracts2 <- unname(sapply(abstracts, function(x) x$abstract))
+abstracts2 <- unname(sapply(abstracts, function(x) 
+  gsub("(<.*?>)", "", x$abstract) %>% 
+    sub("abstract", "", ., ignore.case = TRUE) %>% 
+    sub("motivation", "", ., ignore.case = TRUE) %>% 
+    sub("results", "", ., ignore.case = TRUE) %>% 
+    sub("conclusion", "", ., ignore.case = TRUE) %>% 
+    sub("supplementary", "", ., ignore.case = TRUE) %>% 
+    sub("information", "", ., ignore.case = TRUE)))
 
 words <- tolower(unlist(strsplit(abstracts2, " |\n|\\.|,")))
-to_remove <- c("", "two", "using", "results", "supplementary", "find", "different",
-               "available", "individuals")
+to_remove <- c("", "two", "using", "find", "different", "available")
 
-to_remove <- ""
+# to_remove <- ""
 clean_words <- words[!grepl("http|@|#|ü|ä|ö|\"|\\(", words) & !words %in% to_remove]
 
 corpus <- tm::tm_map(tm::Corpus(tm::VectorSource(clean_words)), function(x) 
@@ -19,10 +29,10 @@ corpus <- tm::tm_map(tm::Corpus(tm::VectorSource(clean_words)), function(x)
 tdm <- tm::TermDocumentMatrix(corpus)
 freq <- slam::row_sums(tdm)
 
-# png("twitter-banner.png", width = 1500, height = 500, units = "px")
-# wordcloud::wordcloud(clean_words, max.words = 20, scale = c(5, 0.1),
-#                      rot.per = 0.1, use.r.layout = FALSE, )
-# dev.off()
+png("twitter-banner.png", width = 1500, height = 500, units = "px")
+wordcloud::wordcloud(clean_words, max.words = 20, scale = c(5, 0.1),
+                     rot.per = 0.1, use.r.layout = FALSE, )
+dev.off()
 
 (word_freq <- dplyr::arrange(tibble::enframe(freq), -value))
 widget <- wordcloud2::wordcloud2(word_freq, widgetsize = c(1500, 480))
